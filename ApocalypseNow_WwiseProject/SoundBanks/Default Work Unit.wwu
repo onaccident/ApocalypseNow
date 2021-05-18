@@ -4,7 +4,9 @@
 		<WorkUnit Name="Default Work Unit" ID="{7EC4F5A5-DD5A-4C52-A953-BD5A3BEB21AD}" PersistMode="Standalone">
 			<ChildrenList>
 				<SoundBank Name="Main" ID="{722016AC-95E2-4DE3-8C99-C9270E1275F9}">
-					<ObjectInclusionList/>
+					<ObjectInclusionList>
+						<ObjectRef Name="SkullAmb_Trigger" ID="{525FB9CC-4B70-4E28-9CE1-4C5B10C9B3E9}" WorkUnitID="{BBA7FF0A-F3A1-4AFD-89EE-F0CE64A4B417}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
