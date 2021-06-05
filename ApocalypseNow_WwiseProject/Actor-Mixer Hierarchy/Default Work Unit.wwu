@@ -26,10 +26,330 @@
 						<ActiveSource Name="flowersmoan-003" ID="{D7500AFD-48D0-440B-966C-FD2F95A3203F}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
-				<Folder Name="Environment" ID="{C947395C-44C7-4793-92F7-11063556BB33}" ShortID="729179914">
+				<Folder Name="Environment" ID="{5A172659-4E08-4CCA-9ED1-1040E726A9B6}" ShortID="676944179">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="4"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
+						<RandomSequenceContainer Name="ENV_Hell_Sweeteners" ID="{DE20FB3E-DE1D-427D-BA47-6567704A44E0}" ShortID="327444002">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="4"/>
+								<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="1.5">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{82EA638D-92EC-4F5C-9BAC-4B33AD18FA89}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="3"/>
+													<Property Name="Min" Type="Real64" Value="-3"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{707979CC-651D-4D44-8623-BF15EF0346B9}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Environment" ID="{AF6BCDDC-F4E2-46D3-98DF-3BFF0F28CAF7}" WorkUnitID="{E3CDF4E7-AF10-45ED-A87C-87E0DAB3C410}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Hell Sweetener_01" ID="{15CB2526-EFAB-4121-B0C1-826E105480DE}" ShortID="297685554">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{707979CC-651D-4D44-8623-BF15EF0346B9}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E3CDF4E7-AF10-45ED-A87C-87E0DAB3C410}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Hell Sweetener 5_20_21" ID="{0A855167-F751-42C9-82AC-F1A61A1789C9}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.610874386613917"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="1.78610731517385"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="4.6895387033046"/>
+												<Property Name="TrimEnd" Type="Real64" Value="8.83797678699715"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Hell Sweetener 5.20.21.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="108502830"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Hell Sweetener 5_20_21" ID="{0A855167-F751-42C9-82AC-F1A61A1789C9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Hell Sweetener_02" ID="{41C20E1D-CC0A-4DFA-A838-5670A53DA89F}" ShortID="1030959042">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{707979CC-651D-4D44-8623-BF15EF0346B9}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Environment" ID="{AF6BCDDC-F4E2-46D3-98DF-3BFF0F28CAF7}" WorkUnitID="{E3CDF4E7-AF10-45ED-A87C-87E0DAB3C410}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Hell Sweetener 5_20_21" ID="{A9609D89-AF60-48DF-9A2F-C1AA52CD5463}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="1.26256811242816"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.480978328544061"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="8.65760991379311"/>
+												<Property Name="TrimEnd" Type="Real64" Value="12.2649473778736"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Hell Sweetener 5.20.21.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1037168783"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Hell Sweetener 5_20_21" ID="{A9609D89-AF60-48DF-9A2F-C1AA52CD5463}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Hell Sweetener_03" ID="{81B4814B-19D6-457A-AD18-514F0AAD1833}" ShortID="6716746">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{707979CC-651D-4D44-8623-BF15EF0346B9}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Environment" ID="{AF6BCDDC-F4E2-46D3-98DF-3BFF0F28CAF7}" WorkUnitID="{E3CDF4E7-AF10-45ED-A87C-87E0DAB3C410}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Hell Sweetener 5_20_21" ID="{1E341633-C8D4-43BF-86DA-5E4553A8C95A}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="1.38281269456418"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.420856037476053"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="12.2649473778736"/>
+												<Property Name="TrimEnd" Type="Real64" Value="16.1127740062261"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Hell Sweetener 5.20.21.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="98704145"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Hell Sweetener 5_20_21" ID="{1E341633-C8D4-43BF-86DA-5E4553A8C95A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Hell Sweetener_04" ID="{65A15D12-0AF6-4232-A29D-9D6B4957C953}" ShortID="973470772">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{707979CC-651D-4D44-8623-BF15EF0346B9}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Environment" ID="{AF6BCDDC-F4E2-46D3-98DF-3BFF0F28CAF7}" WorkUnitID="{E3CDF4E7-AF10-45ED-A87C-87E0DAB3C410}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Hell Sweetener 5_20_21" ID="{C3F321C8-8A9F-4E2D-A3CE-B8F62D828C97}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="2.76562538912835"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="2.3447693516523"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="16.7741192079742"/>
+												<Property Name="TrimEnd" Type="Real64" Value="27.7764984734195"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Hell Sweetener 5.20.21.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="377480960"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Hell Sweetener 5_20_21" ID="{C3F321C8-8A9F-4E2D-A3CE-B8F62D828C97}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Hell Sweetener_05" ID="{5927ECC4-6B8C-413F-AC9E-684712841AAB}" ShortID="481856005">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{707979CC-651D-4D44-8623-BF15EF0346B9}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Environment" ID="{AF6BCDDC-F4E2-46D3-98DF-3BFF0F28CAF7}" WorkUnitID="{E3CDF4E7-AF10-45ED-A87C-87E0DAB3C410}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Hell Sweetener 5_20_21" ID="{7C1CA9A9-14A6-4A00-AAB1-9A4D6C60B2F7}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="2.04415789631226"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="2.04415789631226"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="27.2353978538075"/>
+												<Property Name="TrimEnd" Type="Real64" Value="35.2316625658525"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Hell Sweetener 5.20.21.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="537799215"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Hell Sweetener 5_20_21" ID="{7C1CA9A9-14A6-4A00-AAB1-9A4D6C60B2F7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Hell Sweetener_06" ID="{46E993BB-EE22-434B-B0A0-C578497EF8F8}" ShortID="276011383">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{707979CC-651D-4D44-8623-BF15EF0346B9}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Environment" ID="{AF6BCDDC-F4E2-46D3-98DF-3BFF0F28CAF7}" WorkUnitID="{E3CDF4E7-AF10-45ED-A87C-87E0DAB3C410}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Hell Sweetener 5_20_21" ID="{60EF423E-09FE-4EC3-B05C-FBEF52DF161D}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="2.82574768019636"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.961956657088123"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="39.139611485273"/>
+												<Property Name="TrimEnd" Type="Real64" Value="45.1518405920738"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Hell Sweetener 5.20.21.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="648896493"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Hell Sweetener 5_20_21" ID="{60EF423E-09FE-4EC3-B05C-FBEF52DF161D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Hell Sweetener_07" ID="{AB715C15-BC2D-4D9F-9390-FAAD93187032}" ShortID="940158903">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{707979CC-651D-4D44-8623-BF15EF0346B9}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Environment" ID="{AF6BCDDC-F4E2-46D3-98DF-3BFF0F28CAF7}" WorkUnitID="{E3CDF4E7-AF10-45ED-A87C-87E0DAB3C410}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Hell Sweetener 5_20_21" ID="{4C1428C0-C16E-49E5-A3E3-F10D3C3C86BD}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.721467492816096"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.360733746408046"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="55.3726300736351"/>
+												<Property Name="TrimEnd" Type="Real64" Value="58.3787446270355"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Hell Sweetener 5.20.21.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="9323277"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Hell Sweetener 5_20_21" ID="{4C1428C0-C16E-49E5-A3E3-F10D3C3C86BD}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Hell Sweetener_08" ID="{43881BEC-BAF1-4E4C-9F01-DB5DCA354F9C}" ShortID="953329997">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{707979CC-651D-4D44-8623-BF15EF0346B9}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Environment" ID="{AF6BCDDC-F4E2-46D3-98DF-3BFF0F28CAF7}" WorkUnitID="{E3CDF4E7-AF10-45ED-A87C-87E0DAB3C410}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Hell Sweetener 5_20_21" ID="{5409D817-55BD-4A2E-B135-5ADEE29E7F96}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="2.82574768019636"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.360733746408046"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="69.3210016014129"/>
+												<Property Name="TrimEnd" Type="Real64" Value="76.5356765295738"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Hell Sweetener 5.20.21.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="333372870"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Hell Sweetener 5_20_21" ID="{5409D817-55BD-4A2E-B135-5ADEE29E7F96}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Hell Sweetener_09" ID="{AC8476CA-C49B-4C76-B773-C4CD25A0551F}" ShortID="995830316">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{707979CC-651D-4D44-8623-BF15EF0346B9}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Environment" ID="{AF6BCDDC-F4E2-46D3-98DF-3BFF0F28CAF7}" WorkUnitID="{E3CDF4E7-AF10-45ED-A87C-87E0DAB3C410}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Hell Sweetener 5_20_21" ID="{393A944D-192D-4410-AC6A-F8AF98CA473D}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="2.46501393378831"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.360733746408046"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="76.2350650742337"/>
+												<Property Name="TrimEnd" Type="Real64" Value="83.0890062559866"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Hell Sweetener 5.20.21.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="410294409"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Hell Sweetener 5_20_21" ID="{393A944D-192D-4410-AC6A-F8AF98CA473D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+						</RandomSequenceContainer>
 						<Sound Name="LTSHell_SFX_JSO_SL_SkullAmb" ID="{70CA2A1C-7C76-40C3-A955-011BFB522A3A}" ShortID="655436620">
 							<PropertyList>
+								<Property Name="Color" Type="int16" Value="4"/>
 								<Property Name="EnableAttenuation" Type="bool" Value="False"/>
 								<Property Name="InitialDelay" Type="Real64">
 									<ModifierList>
@@ -43,13 +363,14 @@
 									</ModifierList>
 								</Property>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{707979CC-651D-4D44-8623-BF15EF0346B9}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E3CDF4E7-AF10-45ED-A87C-87E0DAB3C410}"/>
+									<ObjectRef Name="Environment" ID="{AF6BCDDC-F4E2-46D3-98DF-3BFF0F28CAF7}" WorkUnitID="{E3CDF4E7-AF10-45ED-A87C-87E0DAB3C410}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -66,6 +387,49 @@
 								<ActiveSource Name="LTSHell_SFX_JSO_SL_SkullAmb" ID="{642F2328-F360-42F1-8205-7F8B42EB1FE8}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<Sound Name="ENV_Hell_Base_Ambience" ID="{746626FB-6AD7-43C1-9266-BC6E04DCAD16}" ShortID="634332320">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{707979CC-651D-4D44-8623-BF15EF0346B9}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Environment" ID="{AF6BCDDC-F4E2-46D3-98DF-3BFF0F28CAF7}" WorkUnitID="{E3CDF4E7-AF10-45ED-A87C-87E0DAB3C410}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Hell Base Ambience 5_20_21" ID="{B7B1E9CF-7B6F-4CB7-919F-B2FFA65AB4CE}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.1"/>
+										<Property Name="LoopBegin" Type="Real64" Value="0.848635237068965"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="93.8449132992098"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Hell Base Ambience 5.20.21.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="905201629"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Hell Base Ambience 5_20_21" ID="{B7B1E9CF-7B6F-4CB7-919F-B2FFA65AB4CE}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<RandomSequenceContainer Name="Test Container" ID="{DDCA68CD-844D-4FBA-AA16-95809835AF7D}" ShortID="574111295">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{707979CC-651D-4D44-8623-BF15EF0346B9}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E3CDF4E7-AF10-45ED-A87C-87E0DAB3C410}"/>
+								</Reference>
+							</ReferenceList>
+							<ObjectLists/>
+						</RandomSequenceContainer>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

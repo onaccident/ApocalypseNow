@@ -15,6 +15,27 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="MainAmb_Trigger" ID="{76546C0B-2A5D-497D-B1BD-8D79347758AB}">
+					<ChildrenList>
+						<Action Name="" ID="{ABC5BA9B-789B-4015-BF78-49DBA9F36E60}" ShortID="1003475916">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ENV_Hell_Base_Ambience" ID="{746626FB-6AD7-43C1-9266-BC6E04DCAD16}" WorkUnitID="{09F03C2A-3A72-4692-9A31-CDF2B82672A0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{125959A0-C6B7-4685-8891-F8135DE9FBA8}" ShortID="1048782614">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="3"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ENV_Hell_Sweeteners" ID="{DE20FB3E-DE1D-427D-BA47-6567704A44E0}" WorkUnitID="{09F03C2A-3A72-4692-9A31-CDF2B82672A0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

@@ -9,6 +9,15 @@
 							<ObjectRef Name="System" ID="{E188635D-72DA-4E18-9609-44EF30272EF0}" WorkUnitID="{C2CF6864-3DF7-454A-9A5B-38F70FE61ED7}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="Environment" ID="{AF6BCDDC-F4E2-46D3-98DF-3BFF0F28CAF7}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="4"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ObjectLists/>
+						</Bus>
+					</ChildrenList>
 					<ObjectLists/>
 				</Bus>
 			</ChildrenList>

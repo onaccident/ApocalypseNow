@@ -11,11 +11,6 @@
 
 namespace AK
 {
-    namespace EVENTS
-    {
-        static const AkUniqueID SKULLAMB_TRIGGER = 3420260337U;
-    } // namespace EVENTS
-
     namespace BANKS
     {
         static const AkUniqueID INIT = 1355168291U;
