@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>/Users/jeremyscottolsenMP/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/z:/Volumes/Samsung1TB/WORK GitHub/MeganFrazier/ApocalypseNow_WwiseProject/</ProjectRoot>
-		<SourceFilesRoot>/Users/jeremyscottolsenMP/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/z:/Volumes/Samsung1TB/WORK GitHub/MeganFrazier/ApocalypseNow_WwiseProject/.cache/Mac/</SourceFilesRoot>
-		<SoundBanksRoot>/Users/jeremyscottolsenMP/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/z:/Volumes/Samsung1TB/WORK GitHub/MeganFrazier/ApocalypseNow_WwiseProject/GeneratedSoundBanks/Mac/</SoundBanksRoot>
+		<ProjectRoot>C:\Users\Daniel\Documents\GitHub\ApocalypseNow\ApocalypseNow_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Daniel\Documents\GitHub\ApocalypseNow\ApocalypseNow_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Daniel\Documents\GitHub\ApocalypseNow\ApocalypseNow_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>/Users/jeremyscottolsenMP/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/z:/Volumes/Samsung1TB/WORK GitHub/MeganFrazier/ApocalypseNow_WwiseProject/GeneratedSoundBanks/Mac</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\Daniel\Documents\GitHub\ApocalypseNow\ApocalypseNow_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -16,7 +16,7 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="584914777">
+		<SoundBank Id="3161908922" Language="SFX" Hash="344276461">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -25,7 +25,7 @@
 					<IncludedMemoryFiles>
 						<File Id="943600094" Language="SFX">
 							<ShortName>LTSHell_SFX_JSO_SL_SkullAmb.wav</ShortName>
-							<Path>SFX/LTSHell_SFX_JSO_SL_SkullAmb_D79FB2B7.wem</Path>
+							<Path>SFX\LTSHell_SFX_JSO_SL_SkullAmb_D79FB2B7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>

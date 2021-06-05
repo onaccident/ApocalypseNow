@@ -2,5 +2,5 @@ Event	ID	Name			Wwise Object Path	Notes
 	3420260337	SkullAmb_Trigger			\Default Work Unit\SkullAmb_Trigger	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	943600094	LTSHell_SFX_JSO_SL_SkullAmb	Z:\Volumes\Samsung1TB\WORK GitHub\MeganFrazier\ApocalypseNow_WwiseProject\.cache\Mac\SFX\LTSHell_SFX_JSO_SL_SkullAmb_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\LTSHell_SFX_JSO_SL_SkullAmb		11531584
+	943600094	LTSHell_SFX_JSO_SL_SkullAmb	C:\Users\Daniel\Documents\GitHub\ApocalypseNow\ApocalypseNow_WwiseProject\.cache\Mac\SFX\LTSHell_SFX_JSO_SL_SkullAmb_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\LTSHell_SFX_JSO_SL_SkullAmb		11531584
 
