@@ -38,8 +38,25 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy/Default Work Unit
     guid: e7f4cde310afed45a87c87e0dab3c410
     GuidInternal: 
-    m_lastTime: -8585809292254775808
+    m_lastTime: -8585780848364775808
     List:
+    - name: Environment
+      guid: dccd6bafe2f4d34698df3bff0f28caf7
+      id: 1229948536
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: e7f4cde310afed45a87c87e0dab3c410
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Environment
+        ObjectType: 2
+        guid: dccd6bafe2f4d34698df3bff0f28caf7
+      Path: Master-Mixer Hierarchy/Default Work Unit/Master Audio Bus/Environment
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
       id: 3803692087
@@ -66,7 +83,7 @@ MonoBehaviour:
     ParentPath: SoundBanks/Default Work Unit
     guid: a5f5c47e5add524ca953bd5a3beb21ad
     GuidInternal: 
-    m_lastTime: -8585809292254775808
+    m_lastTime: -8585780840434775808
     List:
     - name: Main
       guid: ac162072e295e34d8c99c9270e1275f9
@@ -94,8 +111,25 @@ MonoBehaviour:
     ParentPath: Events/Default Work Unit
     guid: 0affa7bba1f3fd4a89eef0ce64a4b417
     GuidInternal: 
-    m_lastTime: -8585802452744775808
+    m_lastTime: -8585780848364775808
     List:
+    - name: MainAmb_Trigger
+      guid: 0b6c54765d2a7d49b1bd8d79347758ab
+      id: 3843065399
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 0affa7bba1f3fd4a89eef0ce64a4b417
+      - ElementName: MainAmb_Trigger
+        ObjectType: 3
+        guid: 0b6c54765d2a7d49b1bd8d79347758ab
+      Path: Events/Default Work Unit/MainAmb_Trigger
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: SkullAmb_Trigger
       guid: ccb95f52704b284e9ce14c5b10c9b3e9
       id: 3420260337

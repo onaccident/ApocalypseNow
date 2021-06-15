@@ -11,16 +11,60 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Language="SFX" Hash="2754342975">
+		<SoundBank Id="1355168291" Language="SFX" Hash="3571719261">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="584914777">
+		<SoundBank Id="3161908922" Language="SFX" Hash="3218222431">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<IncludedEvents>
+				<Event Id="3843065399" Name="MainAmb_Trigger" ObjectPath="\Events\Default Work Unit\MainAmb_Trigger" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="9323277" Language="SFX">
+							<ShortName>Hell Sweetener 5.20.21.wav</ShortName>
+							<Path>SFX/Hell Sweetener 5.20.21_F56C62FD.wem</Path>
+						</File>
+						<File Id="98704145" Language="SFX">
+							<ShortName>Hell Sweetener 5.20.21.wav</ShortName>
+							<Path>SFX/Hell Sweetener 5.20.21_B9879D58.wem</Path>
+						</File>
+						<File Id="108502830" Language="SFX">
+							<ShortName>Hell Sweetener 5.20.21.wav</ShortName>
+							<Path>SFX/Hell Sweetener 5.20.21_200DD57A.wem</Path>
+						</File>
+						<File Id="333372870" Language="SFX">
+							<ShortName>Hell Sweetener 5.20.21.wav</ShortName>
+							<Path>SFX/Hell Sweetener 5.20.21_DD38E161.wem</Path>
+						</File>
+						<File Id="377480960" Language="SFX">
+							<ShortName>Hell Sweetener 5.20.21.wav</ShortName>
+							<Path>SFX/Hell Sweetener 5.20.21_B6A49DEC.wem</Path>
+						</File>
+						<File Id="410294409" Language="SFX">
+							<ShortName>Hell Sweetener 5.20.21.wav</ShortName>
+							<Path>SFX/Hell Sweetener 5.20.21_BFC2D6E6.wem</Path>
+						</File>
+						<File Id="537799215" Language="SFX">
+							<ShortName>Hell Sweetener 5.20.21.wav</ShortName>
+							<Path>SFX/Hell Sweetener 5.20.21_EC8B8B42.wem</Path>
+						</File>
+						<File Id="648896493" Language="SFX">
+							<ShortName>Hell Sweetener 5.20.21.wav</ShortName>
+							<Path>SFX/Hell Sweetener 5.20.21_EA38B9CB.wem</Path>
+						</File>
+						<File Id="905201629" Language="SFX">
+							<ShortName>Hell Base Ambience 5.20.21.wav</ShortName>
+							<Path>SFX/Hell Base Ambience 5.20.21_76FC985C.wem</Path>
+						</File>
+						<File Id="1037168783" Language="SFX">
+							<ShortName>Hell Sweetener 5.20.21.wav</ShortName>
+							<Path>SFX/Hell Sweetener 5.20.21_FE9FB999.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="3420260337" Name="SkullAmb_Trigger" ObjectPath="\Events\Default Work Unit\SkullAmb_Trigger" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="943600094" Language="SFX">
