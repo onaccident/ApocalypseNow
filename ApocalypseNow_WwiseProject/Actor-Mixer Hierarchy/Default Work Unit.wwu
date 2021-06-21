@@ -434,98 +434,6 @@
 				</Folder>
 				<Folder Name="SFX_210615_FeetDirtStone" ID="{269336B6-F795-4DE9-B277-82859EF41BA4}" ShortID="553353529">
 					<ChildrenList>
-						<Sound Name="LTSHell_SFX_JSO_FS_dirt1" ID="{51E751D9-5529-47C2-8798-69362F9095C1}" ShortID="637637706">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{707979CC-651D-4D44-8623-BF15EF0346B9}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E3CDF4E7-AF10-45ED-A87C-87E0DAB3C410}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="LTSHell_SFX_JSO_FS_dirt1" ID="{0227C6A5-B4FB-4C4C-A0D1-963BBE8A1DD2}">
-									<Language>SFX</Language>
-									<AudioFile>SFX_210615_FeetDirtStone\LTSHell_SFX_JSO_FS_dirt1.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="83380272"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ObjectLists/>
-							<ActiveSourceList>
-								<ActiveSource Name="LTSHell_SFX_JSO_FS_dirt1" ID="{0227C6A5-B4FB-4C4C-A0D1-963BBE8A1DD2}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="LTSHell_SFX_JSO_FS_dirt2" ID="{95D9FA0B-EDFB-4259-8B5F-2CEA813AB0E7}" ShortID="804394347">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{707979CC-651D-4D44-8623-BF15EF0346B9}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E3CDF4E7-AF10-45ED-A87C-87E0DAB3C410}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="LTSHell_SFX_JSO_FS_dirt2" ID="{DBA86FA0-C020-44F7-9CF5-B3848C32549C}">
-									<Language>SFX</Language>
-									<AudioFile>SFX_210615_FeetDirtStone\LTSHell_SFX_JSO_FS_dirt2.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="658808858"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ObjectLists/>
-							<ActiveSourceList>
-								<ActiveSource Name="LTSHell_SFX_JSO_FS_dirt2" ID="{DBA86FA0-C020-44F7-9CF5-B3848C32549C}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="LTSHell_SFX_JSO_FS_dirt3" ID="{BBF645C8-26C6-4BAE-9DCB-6616B1E7F053}" ShortID="839305216">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{707979CC-651D-4D44-8623-BF15EF0346B9}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E3CDF4E7-AF10-45ED-A87C-87E0DAB3C410}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="LTSHell_SFX_JSO_FS_dirt3" ID="{F4C8F4CE-0993-4435-B7F3-37C1F50B627B}">
-									<Language>SFX</Language>
-									<AudioFile>SFX_210615_FeetDirtStone\LTSHell_SFX_JSO_FS_dirt3.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="760931828"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ObjectLists/>
-							<ActiveSourceList>
-								<ActiveSource Name="LTSHell_SFX_JSO_FS_dirt3" ID="{F4C8F4CE-0993-4435-B7F3-37C1F50B627B}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="LTSHell_SFX_JSO_FS_dirt4" ID="{2AD06603-0509-406D-B616-41538C1B4AC6}" ShortID="485574854">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{707979CC-651D-4D44-8623-BF15EF0346B9}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E3CDF4E7-AF10-45ED-A87C-87E0DAB3C410}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="LTSHell_SFX_JSO_FS_dirt4" ID="{85BE41E1-D13C-47E0-B1C7-78037D649159}">
-									<Language>SFX</Language>
-									<AudioFile>SFX_210615_FeetDirtStone\LTSHell_SFX_JSO_FS_dirt4.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="236287811"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ObjectLists/>
-							<ActiveSourceList>
-								<ActiveSource Name="LTSHell_SFX_JSO_FS_dirt4" ID="{85BE41E1-D13C-47E0-B1C7-78037D649159}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
 						<Sound Name="LTSHell_SFX_JSO_FS_dirt5" ID="{166EE8AB-6DDF-4DF3-9062-A2FF338B6906}" ShortID="557194074">
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -894,6 +802,138 @@
 								<ActiveSource Name="LTSHell_SFX_JSO_FS_stone_jump_launch" ID="{9B7B442D-E9C6-4E3C-A5AA-19AC798C3CC0}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<RandomSequenceContainer Name="foot_stone_L_random" ID="{A2FC16F3-D492-4DE9-8700-79DE0CA069ED}" ShortID="1000831929">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{79F83D7E-7021-412A-8221-54F5F150AFD6}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="2"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{72BB98FE-A038-4005-83EE-2C475E2EA530}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="1"/>
+													<Property Name="Min" Type="Real64" Value="-1"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{707979CC-651D-4D44-8623-BF15EF0346B9}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E3CDF4E7-AF10-45ED-A87C-87E0DAB3C410}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="LTSHell_SFX_JSO_FS_dirt1" ID="{51E751D9-5529-47C2-8798-69362F9095C1}" ShortID="637637706">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{707979CC-651D-4D44-8623-BF15EF0346B9}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E3CDF4E7-AF10-45ED-A87C-87E0DAB3C410}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="LTSHell_SFX_JSO_FS_dirt1" ID="{0227C6A5-B4FB-4C4C-A0D1-963BBE8A1DD2}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_210615_FeetDirtStone\LTSHell_SFX_JSO_FS_dirt1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="83380272"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="LTSHell_SFX_JSO_FS_dirt1" ID="{0227C6A5-B4FB-4C4C-A0D1-963BBE8A1DD2}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="LTSHell_SFX_JSO_FS_dirt2" ID="{95D9FA0B-EDFB-4259-8B5F-2CEA813AB0E7}" ShortID="804394347">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{707979CC-651D-4D44-8623-BF15EF0346B9}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E3CDF4E7-AF10-45ED-A87C-87E0DAB3C410}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="LTSHell_SFX_JSO_FS_dirt2" ID="{DBA86FA0-C020-44F7-9CF5-B3848C32549C}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_210615_FeetDirtStone\LTSHell_SFX_JSO_FS_dirt2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="658808858"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="LTSHell_SFX_JSO_FS_dirt2" ID="{DBA86FA0-C020-44F7-9CF5-B3848C32549C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="LTSHell_SFX_JSO_FS_dirt3" ID="{BBF645C8-26C6-4BAE-9DCB-6616B1E7F053}" ShortID="839305216">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{707979CC-651D-4D44-8623-BF15EF0346B9}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E3CDF4E7-AF10-45ED-A87C-87E0DAB3C410}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="LTSHell_SFX_JSO_FS_dirt3" ID="{F4C8F4CE-0993-4435-B7F3-37C1F50B627B}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_210615_FeetDirtStone\LTSHell_SFX_JSO_FS_dirt3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="760931828"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="LTSHell_SFX_JSO_FS_dirt3" ID="{F4C8F4CE-0993-4435-B7F3-37C1F50B627B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="LTSHell_SFX_JSO_FS_dirt4" ID="{2AD06603-0509-406D-B616-41538C1B4AC6}" ShortID="485574854">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{707979CC-651D-4D44-8623-BF15EF0346B9}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E3CDF4E7-AF10-45ED-A87C-87E0DAB3C410}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="LTSHell_SFX_JSO_FS_dirt4" ID="{85BE41E1-D13C-47E0-B1C7-78037D649159}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_210615_FeetDirtStone\LTSHell_SFX_JSO_FS_dirt4.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="236287811"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="LTSHell_SFX_JSO_FS_dirt4" ID="{85BE41E1-D13C-47E0-B1C7-78037D649159}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+						</RandomSequenceContainer>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>
