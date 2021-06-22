@@ -16,11 +16,51 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="3218222431">
+		<SoundBank Id="3161908922" Language="SFX" Hash="1726989191">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<IncludedEvents>
+				<Event Id="1057979206" Name="foot_dirt_L" ObjectPath="\Events\Default Work Unit\foot_dirt_L" DurationType="OneShot" DurationMin="0.416602" DurationMax="0.501079">
+					<IncludedMemoryFiles>
+						<File Id="83380272" Language="SFX">
+							<ShortName>SFX_210615_FeetDirtStone\LTSHell_SFX_JSO_FS_dirt1.wav</ShortName>
+							<Path>SFX/SFX_210615_FeetDirtStone/LTSHell_SFX_JSO_FS_dirt1_10C4C929.wem</Path>
+						</File>
+						<File Id="236287811" Language="SFX">
+							<ShortName>SFX_210615_FeetDirtStone\LTSHell_SFX_JSO_FS_dirt4.wav</ShortName>
+							<Path>SFX/SFX_210615_FeetDirtStone/LTSHell_SFX_JSO_FS_dirt4_10C4C929.wem</Path>
+						</File>
+						<File Id="658808858" Language="SFX">
+							<ShortName>SFX_210615_FeetDirtStone\LTSHell_SFX_JSO_FS_dirt2.wav</ShortName>
+							<Path>SFX/SFX_210615_FeetDirtStone/LTSHell_SFX_JSO_FS_dirt2_10C4C929.wem</Path>
+						</File>
+						<File Id="760931828" Language="SFX">
+							<ShortName>SFX_210615_FeetDirtStone\LTSHell_SFX_JSO_FS_dirt3.wav</ShortName>
+							<Path>SFX/SFX_210615_FeetDirtStone/LTSHell_SFX_JSO_FS_dirt3_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1057979224" Name="foot_dirt_R" ObjectPath="\Events\Default Work Unit\foot_dirt_R" DurationType="OneShot" DurationMin="0.499922" DurationMax="0.501079">
+					<IncludedMemoryFiles>
+						<File Id="345686005" Language="SFX">
+							<ShortName>SFX_210615_FeetDirtStone\LTSHell_SFX_JSO_FS_dirt7.wav</ShortName>
+							<Path>SFX/SFX_210615_FeetDirtStone/LTSHell_SFX_JSO_FS_dirt7_10C4C929.wem</Path>
+						</File>
+						<File Id="365168016" Language="SFX">
+							<ShortName>SFX_210615_FeetDirtStone\LTSHell_SFX_JSO_FS_dirt5.wav</ShortName>
+							<Path>SFX/SFX_210615_FeetDirtStone/LTSHell_SFX_JSO_FS_dirt5_10C4C929.wem</Path>
+						</File>
+						<File Id="804292496" Language="SFX">
+							<ShortName>SFX_210615_FeetDirtStone\LTSHell_SFX_JSO_FS_dirt6.wav</ShortName>
+							<Path>SFX/SFX_210615_FeetDirtStone/LTSHell_SFX_JSO_FS_dirt6_10C4C929.wem</Path>
+						</File>
+						<File Id="896195382" Language="SFX">
+							<ShortName>SFX_210615_FeetDirtStone\LTSHell_SFX_JSO_FS_dirt8.wav</ShortName>
+							<Path>SFX/SFX_210615_FeetDirtStone/LTSHell_SFX_JSO_FS_dirt8_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="3843065399" Name="MainAmb_Trigger" ObjectPath="\Events\Default Work Unit\MainAmb_Trigger" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="9323277" Language="SFX">

@@ -13,6 +13,8 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID FOOT_DIRT_L = 1057979206U;
+        static const AkUniqueID FOOT_DIRT_R = 1057979224U;
         static const AkUniqueID MAINAMB_TRIGGER = 3843065399U;
         static const AkUniqueID SKULLAMB_TRIGGER = 3420260337U;
     } // namespace EVENTS
