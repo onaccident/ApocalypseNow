@@ -13,6 +13,14 @@
 							<ObjectRef Name="foot_dirt_R" ID="{36D2F593-FFD9-41BE-87B5-5C73F26F2810}" WorkUnitID="{BBA7FF0A-F3A1-4AFD-89EE-F0CE64A4B417}"/>
 							<Position X="0" Y="1"/>
 						</Module>
+						<Module>
+							<ObjectRef Name="foot_dirt_jump_launch" ID="{329049C4-E332-4FCE-93F2-E605E384775E}" WorkUnitID="{BBA7FF0A-F3A1-4AFD-89EE-F0CE64A4B417}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="foot_dirt_jump_land" ID="{B896763D-FDE1-4D20-8455-93B44BCD8E3D}" WorkUnitID="{BBA7FF0A-F3A1-4AFD-89EE-F0CE64A4B417}"/>
+							<Position X="1" Y="1"/>
+						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true"/>
 					<CurrentStateList ShowAll="true"/>

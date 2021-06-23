@@ -58,6 +58,28 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="foot_dirt_jump_land" ID="{B896763D-FDE1-4D20-8455-93B44BCD8E3D}">
+					<ChildrenList>
+						<Action Name="" ID="{2417F91F-F9DB-469F-94BA-A8FE2873C7CA}" ShortID="912003292">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="LTSHell_SFX_JSO_FS_dirt_jump_land" ID="{5DB5A076-9899-48FC-9F49-889642A77FC2}" WorkUnitID="{09F03C2A-3A72-4692-9A31-CDF2B82672A0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="foot_dirt_jump_launch" ID="{329049C4-E332-4FCE-93F2-E605E384775E}">
+					<ChildrenList>
+						<Action Name="" ID="{D1E158EA-9148-4CFF-9329-5E176B8F5018}" ShortID="230560961">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="LTSHell_SFX_JSO_FS_dirt_jump_launch" ID="{8B267DA6-2402-474D-99DB-359E14A6806B}" WorkUnitID="{09F03C2A-3A72-4692-9A31-CDF2B82672A0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

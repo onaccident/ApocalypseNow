@@ -4,11 +4,13 @@
 		<UserProjectSettings Name="" ID="{3B2AD3E4-ABF6-413B-B564-FEDD9F2EF560}">
 			<PropertyList>
 				<Property Name="AudioFilesImporter\Path" Type="string" Value="Z:\Volumes\Samsung1TB\WORK Pro Tools\INTERACTIVE\JSO_PT_LTSslack_210517_Hell\EXPORTS\SFX_210518_SkullAmb\"/>
+				<Property Name="Event Action List\{329049C4-E332-4FCE-93F2-E605E384775E}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{36D2F593-FFD9-41BE-87B5-5C73F26F2810}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{4A63C896-586E-4E8C-AD43-24650D29C743}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{525FB9CC-4B70-4E28-9CE1-4C5B10C9B3E9}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{76546C0B-2A5D-497D-B1BD-8D79347758AB}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{98DA8565-8054-4605-A5E2-0A750A294F9C}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{B896763D-FDE1-4D20-8455-93B44BCD8E3D}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="EventView\FilterMode1" Type="int32" Value="2"/>
 				<Property Name="ExternalSourcesInputPath" Type="string">
 					<ValueList>
@@ -41,7 +43,7 @@
 				<Property Name="MonitoringManager\GameObjectFilter\x64_GameObjectFilters" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\FirstVisible_11_1" Type="string" Value="{4C96B38B-3DB4-40C7-91C9-665510E38993}"/>
 				<Property Name="ProjectExplorer\FirstVisible_12_1" Type="string" Value="{23EC2DE3-3ED8-4B82-AC99-92E25F2E4C6B}"/>
-				<Property Name="ProjectExplorer\FirstVisible_1_1" Type="string" Value="{27092F88-225A-1154-6725-C8A34F3D4482}"/>
+				<Property Name="ProjectExplorer\FirstVisible_1_1" Type="string" Value="{C2CF6864-3DF7-454A-9A5B-38F70FE61ED7}"/>
 				<Property Name="ProjectExplorer\FirstVisible_4_1" Type="string" Value="{A69BF0FC-D84A-487C-ABDD-56F71CB2A126}"/>
 				<Property Name="ProjectExplorer\FirstVisible_5_1" Type="string" Value="{CB6175F1-6080-4A23-92EF-0807E304D0C1}"/>
 				<Property Name="ProjectExplorer\FirstVisible_7_1" Type="string" Value="{C98E673F-A24C-48A8-960F-10565FFE70A0}"/>
