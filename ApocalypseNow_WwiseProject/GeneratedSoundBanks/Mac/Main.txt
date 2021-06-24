@@ -1,5 +1,6 @@
 Event	ID	Name			Wwise Object Path	Notes
 	618419742	foot_dirt_jump_land			\Default Work Unit\foot_dirt_jump_land	
+	870183818	foot_stone_L			\Default Work Unit\foot_stone_L	
 	1057979206	foot_dirt_L			\Default Work Unit\foot_dirt_L	
 	1057979224	foot_dirt_R			\Default Work Unit\foot_dirt_R	
 	2379002856	foot_dirt_jump_launch			\Default Work Unit\foot_dirt_jump_launch	
@@ -23,9 +24,13 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	658808858	LTSHell_SFX_JSO_FS_dirt2	Z:\Volumes\Samsung1TB\WORK GitHub\MeganFrazier\ApocalypseNow_WwiseProject\.cache\Mac\SFX\SFX_210615_FeetDirtStone\LTSHell_SFX_JSO_FS_dirt2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_210615_FeetDirtStone\foot_dirt_L_random\LTSHell_SFX_JSO_FS_dirt2		40104
 	760931828	LTSHell_SFX_JSO_FS_dirt3	Z:\Volumes\Samsung1TB\WORK GitHub\MeganFrazier\ApocalypseNow_WwiseProject\.cache\Mac\SFX\SFX_210615_FeetDirtStone\LTSHell_SFX_JSO_FS_dirt3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_210615_FeetDirtStone\foot_dirt_L_random\LTSHell_SFX_JSO_FS_dirt3		46640
 	804292496	LTSHell_SFX_JSO_FS_dirt6	Z:\Volumes\Samsung1TB\WORK GitHub\MeganFrazier\ApocalypseNow_WwiseProject\.cache\Mac\SFX\SFX_210615_FeetDirtStone\LTSHell_SFX_JSO_FS_dirt6_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_210615_FeetDirtStone\foot_dirt_R_random\LTSHell_SFX_JSO_FS_dirt6		48112
+	823883284	LTSHell_SFX_JSO_FS_stone4	Z:\Volumes\Samsung1TB\WORK GitHub\MeganFrazier\ApocalypseNow_WwiseProject\.cache\Mac\SFX\SFX_210615_FeetDirtStone\LTSHell_SFX_JSO_FS_stone4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_210615_FeetDirtStone\foot_stone_L_random\LTSHell_SFX_JSO_FS_stone4		56120
 	843449187	LTSHell_SFX_JSO_FS_dirt_jump_land	Z:\Volumes\Samsung1TB\WORK GitHub\MeganFrazier\ApocalypseNow_WwiseProject\.cache\Mac\SFX\SFX_210615_FeetDirtStone\LTSHell_SFX_JSO_FS_dirt_jump_land_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_210615_FeetDirtStone\LTSHell_SFX_JSO_FS_dirt_jump_land		80144
 	896195382	LTSHell_SFX_JSO_FS_dirt8	Z:\Volumes\Samsung1TB\WORK GitHub\MeganFrazier\ApocalypseNow_WwiseProject\.cache\Mac\SFX\SFX_210615_FeetDirtStone\LTSHell_SFX_JSO_FS_dirt8_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_210615_FeetDirtStone\foot_dirt_R_random\LTSHell_SFX_JSO_FS_dirt8		48112
 	905201629	ENV_Hell_Base_Ambience	Z:\Volumes\Samsung1TB\WORK GitHub\MeganFrazier\ApocalypseNow_WwiseProject\.cache\Mac\SFX\Hell Base Ambience 5.20.21_76FC985C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\ENV_Hell_Base_Ambience		18018352
 	943600094	LTSHell_SFX_JSO_SL_SkullAmb	Z:\Volumes\Samsung1TB\WORK GitHub\MeganFrazier\ApocalypseNow_WwiseProject\.cache\Mac\SFX\LTSHell_SFX_JSO_SL_SkullAmb_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\LTSHell_SFX_JSO_SL_SkullAmb		11531584
+	988595697	LTSHell_SFX_JSO_FS_stone1	Z:\Volumes\Samsung1TB\WORK GitHub\MeganFrazier\ApocalypseNow_WwiseProject\.cache\Mac\SFX\SFX_210615_FeetDirtStone\LTSHell_SFX_JSO_FS_stone1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_210615_FeetDirtStone\foot_stone_L_random\LTSHell_SFX_JSO_FS_stone1		56120
+	1002163670	LTSHell_SFX_JSO_FS_stone3	Z:\Volumes\Samsung1TB\WORK GitHub\MeganFrazier\ApocalypseNow_WwiseProject\.cache\Mac\SFX\SFX_210615_FeetDirtStone\LTSHell_SFX_JSO_FS_stone3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_210615_FeetDirtStone\foot_stone_L_random\LTSHell_SFX_JSO_FS_stone3		56120
+	1024803693	LTSHell_SFX_JSO_FS_stone2	Z:\Volumes\Samsung1TB\WORK GitHub\MeganFrazier\ApocalypseNow_WwiseProject\.cache\Mac\SFX\SFX_210615_FeetDirtStone\LTSHell_SFX_JSO_FS_stone2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_210615_FeetDirtStone\foot_stone_L_random\LTSHell_SFX_JSO_FS_stone2		56120
 	1037168783	Hell Sweetener_02	Z:\Volumes\Samsung1TB\WORK GitHub\MeganFrazier\ApocalypseNow_WwiseProject\.cache\Mac\SFX\Hell Sweetener 5.20.21_FE9FB999.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\ENV_Hell_Sweeteners\Hell Sweetener_02		692672
 

@@ -80,6 +80,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="foot_stone_L" ID="{EC1A8766-695F-4EB0-ADA1-8CD50BA4D9E8}">
+					<ChildrenList>
+						<Action Name="" ID="{AE623A61-9A10-48C6-A46B-3E120B0B3500}" ShortID="977364047">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="foot_stone_L_random" ID="{273F3076-2191-4F5C-B0CB-0E8868DBD54A}" WorkUnitID="{09F03C2A-3A72-4692-9A31-CDF2B82672A0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
