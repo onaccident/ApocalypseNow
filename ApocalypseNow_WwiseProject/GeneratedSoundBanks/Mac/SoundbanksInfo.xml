@@ -16,7 +16,7 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="2564765537">
+		<SoundBank Id="3161908922" Language="SFX" Hash="3075918938">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -94,6 +94,26 @@
 						<File Id="1024803693" Language="SFX">
 							<ShortName>SFX_210615_FeetDirtStone\LTSHell_SFX_JSO_FS_stone2.wav</ShortName>
 							<Path>SFX/SFX_210615_FeetDirtStone/LTSHell_SFX_JSO_FS_stone2_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="870183828" Name="foot_stone_R" ObjectPath="\Events\Default Work Unit\foot_stone_R" DurationType="OneShot" DurationMin="0.579850" DurationMax="0.584592">
+					<IncludedMemoryFiles>
+						<File Id="66171229" Language="SFX">
+							<ShortName>SFX_210615_FeetDirtStone\LTSHell_SFX_JSO_FS_stone5.wav</ShortName>
+							<Path>SFX/SFX_210615_FeetDirtStone/LTSHell_SFX_JSO_FS_stone5_10C4C929.wem</Path>
+						</File>
+						<File Id="355906035" Language="SFX">
+							<ShortName>SFX_210615_FeetDirtStone\LTSHell_SFX_JSO_FS_stone6.wav</ShortName>
+							<Path>SFX/SFX_210615_FeetDirtStone/LTSHell_SFX_JSO_FS_stone6_10C4C929.wem</Path>
+						</File>
+						<File Id="541377125" Language="SFX">
+							<ShortName>SFX_210615_FeetDirtStone\LTSHell_SFX_JSO_FS_stone8.wav</ShortName>
+							<Path>SFX/SFX_210615_FeetDirtStone/LTSHell_SFX_JSO_FS_stone8_10C4C929.wem</Path>
+						</File>
+						<File Id="1000088214" Language="SFX">
+							<ShortName>SFX_210615_FeetDirtStone\LTSHell_SFX_JSO_FS_stone7.wav</ShortName>
+							<Path>SFX/SFX_210615_FeetDirtStone/LTSHell_SFX_JSO_FS_stone7_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
