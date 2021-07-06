@@ -17,6 +17,8 @@ namespace AK
         static const AkUniqueID FOOT_DIRT_JUMP_LAUNCH = 2379002856U;
         static const AkUniqueID FOOT_DIRT_L = 1057979206U;
         static const AkUniqueID FOOT_DIRT_R = 1057979224U;
+        static const AkUniqueID FOOT_STONE_JUMP_LAND = 3872514954U;
+        static const AkUniqueID FOOT_STONE_JUMP_LAUNCH = 1141956292U;
         static const AkUniqueID FOOT_STONE_L = 870183818U;
         static const AkUniqueID FOOT_STONE_R = 870183828U;
         static const AkUniqueID MAINAMB_TRIGGER = 3843065399U;

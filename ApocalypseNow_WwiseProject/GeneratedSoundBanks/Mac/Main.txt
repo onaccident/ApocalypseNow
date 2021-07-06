@@ -4,9 +4,11 @@ Event	ID	Name			Wwise Object Path	Notes
 	870183828	foot_stone_R			\Default Work Unit\foot_stone_R	
 	1057979206	foot_dirt_L			\Default Work Unit\foot_dirt_L	
 	1057979224	foot_dirt_R			\Default Work Unit\foot_dirt_R	
+	1141956292	foot_stone_jump_launch			\Default Work Unit\foot_stone_jump_launch	
 	2379002856	foot_dirt_jump_launch			\Default Work Unit\foot_dirt_jump_launch	
 	3420260337	SkullAmb_Trigger			\Default Work Unit\SkullAmb_Trigger	
 	3843065399	MainAmb_Trigger			\Default Work Unit\MainAmb_Trigger	
+	3872514954	foot_stone_jump_land			\Default Work Unit\foot_stone_jump_land	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	9323277	Hell Sweetener_07	Z:\Volumes\Samsung1TB\WORK GitHub\MeganFrazier\ApocalypseNow_WwiseProject\.cache\Mac\SFX\Hell Sweetener 5.20.21_F56C62FD.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\ENV_Hell_Sweeteners\Hell Sweetener_07		577240
@@ -22,6 +24,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	377480960	Hell Sweetener_04	Z:\Volumes\Samsung1TB\WORK GitHub\MeganFrazier\ApocalypseNow_WwiseProject\.cache\Mac\SFX\Hell Sweetener 5.20.21_B6A49DEC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\ENV_Hell_Sweeteners\Hell Sweetener_04		2112520
 	379509120	LTSHell_SFX_JSO_FS_dirt_jump_launch	Z:\Volumes\Samsung1TB\WORK GitHub\MeganFrazier\ApocalypseNow_WwiseProject\.cache\Mac\SFX\SFX_210615_FeetDirtStone\LTSHell_SFX_JSO_FS_dirt_jump_launch_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_210615_FeetDirtStone\LTSHell_SFX_JSO_FS_dirt_jump_launch		56120
 	410294409	Hell Sweetener_09	Z:\Volumes\Samsung1TB\WORK GitHub\MeganFrazier\ApocalypseNow_WwiseProject\.cache\Mac\SFX\Hell Sweetener 5.20.21_BFC2D6E6.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\ENV_Hell_Sweeteners\Hell Sweetener_09		1316020
+	449311475	LTSHell_SFX_JSO_FS_stone_jump_land	Z:\Volumes\Samsung1TB\WORK GitHub\MeganFrazier\ApocalypseNow_WwiseProject\.cache\Mac\SFX\SFX_210615_FeetDirtStone\LTSHell_SFX_JSO_FS_stone_jump_land_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_210615_FeetDirtStone\LTSHell_SFX_JSO_FS_stone_jump_land		88152
 	537799215	Hell Sweetener_05	Z:\Volumes\Samsung1TB\WORK GitHub\MeganFrazier\ApocalypseNow_WwiseProject\.cache\Mac\SFX\Hell Sweetener 5.20.21_EC8B8B42.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\ENV_Hell_Sweeteners\Hell Sweetener_05		1535348
 	541377125	LTSHell_SFX_JSO_FS_stone8	Z:\Volumes\Samsung1TB\WORK GitHub\MeganFrazier\ApocalypseNow_WwiseProject\.cache\Mac\SFX\SFX_210615_FeetDirtStone\LTSHell_SFX_JSO_FS_stone8_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_210615_FeetDirtStone\foot_stone_R_random\LTSHell_SFX_JSO_FS_stone8		56120
 	648896493	Hell Sweetener_06	Z:\Volumes\Samsung1TB\WORK GitHub\MeganFrazier\ApocalypseNow_WwiseProject\.cache\Mac\SFX\Hell Sweetener 5.20.21_EA38B9CB.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\ENV_Hell_Sweeteners\Hell Sweetener_06		1154412
@@ -38,4 +41,5 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	1002163670	LTSHell_SFX_JSO_FS_stone3	Z:\Volumes\Samsung1TB\WORK GitHub\MeganFrazier\ApocalypseNow_WwiseProject\.cache\Mac\SFX\SFX_210615_FeetDirtStone\LTSHell_SFX_JSO_FS_stone3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_210615_FeetDirtStone\foot_stone_L_random\LTSHell_SFX_JSO_FS_stone3		56120
 	1024803693	LTSHell_SFX_JSO_FS_stone2	Z:\Volumes\Samsung1TB\WORK GitHub\MeganFrazier\ApocalypseNow_WwiseProject\.cache\Mac\SFX\SFX_210615_FeetDirtStone\LTSHell_SFX_JSO_FS_stone2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_210615_FeetDirtStone\foot_stone_L_random\LTSHell_SFX_JSO_FS_stone2		56120
 	1037168783	Hell Sweetener_02	Z:\Volumes\Samsung1TB\WORK GitHub\MeganFrazier\ApocalypseNow_WwiseProject\.cache\Mac\SFX\Hell Sweetener 5.20.21_FE9FB999.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\ENV_Hell_Sweeteners\Hell Sweetener_02		692672
+	1046683361	LTSHell_SFX_JSO_FS_stone_jump_launch	Z:\Volumes\Samsung1TB\WORK GitHub\MeganFrazier\ApocalypseNow_WwiseProject\.cache\Mac\SFX\SFX_210615_FeetDirtStone\LTSHell_SFX_JSO_FS_stone_jump_launch_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_210615_FeetDirtStone\LTSHell_SFX_JSO_FS_stone_jump_launch		52116
 

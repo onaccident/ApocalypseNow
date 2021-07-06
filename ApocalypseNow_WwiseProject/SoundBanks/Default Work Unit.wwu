@@ -5,12 +5,14 @@
 			<ChildrenList>
 				<SoundBank Name="Main" ID="{722016AC-95E2-4DE3-8C99-C9270E1275F9}">
 					<ObjectInclusionList>
+						<ObjectRef Name="foot_stone_jump_launch" ID="{88F40E9B-35BF-405C-8A80-F5FA3B19508D}" WorkUnitID="{BBA7FF0A-F3A1-4AFD-89EE-F0CE64A4B417}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="foot_dirt_R" ID="{36D2F593-FFD9-41BE-87B5-5C73F26F2810}" WorkUnitID="{BBA7FF0A-F3A1-4AFD-89EE-F0CE64A4B417}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="foot_stone_R" ID="{F419D616-51E6-41F3-941C-8BC927D9563C}" WorkUnitID="{BBA7FF0A-F3A1-4AFD-89EE-F0CE64A4B417}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="MainAmb_Trigger" ID="{76546C0B-2A5D-497D-B1BD-8D79347758AB}" WorkUnitID="{BBA7FF0A-F3A1-4AFD-89EE-F0CE64A4B417}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="foot_dirt_jump_land" ID="{B896763D-FDE1-4D20-8455-93B44BCD8E3D}" WorkUnitID="{BBA7FF0A-F3A1-4AFD-89EE-F0CE64A4B417}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="SkullAmb_Trigger" ID="{525FB9CC-4B70-4E28-9CE1-4C5B10C9B3E9}" WorkUnitID="{BBA7FF0A-F3A1-4AFD-89EE-F0CE64A4B417}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="foot_dirt_L" ID="{4A63C896-586E-4E8C-AD43-24650D29C743}" WorkUnitID="{BBA7FF0A-F3A1-4AFD-89EE-F0CE64A4B417}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="foot_stone_jump_land" ID="{F4E0E122-0B9E-4E96-A75B-C9D1AF8F323A}" WorkUnitID="{BBA7FF0A-F3A1-4AFD-89EE-F0CE64A4B417}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="foot_stone_L" ID="{EC1A8766-695F-4EB0-ADA1-8CD50BA4D9E8}" WorkUnitID="{BBA7FF0A-F3A1-4AFD-89EE-F0CE64A4B417}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="foot_dirt_jump_launch" ID="{329049C4-E332-4FCE-93F2-E605E384775E}" WorkUnitID="{BBA7FF0A-F3A1-4AFD-89EE-F0CE64A4B417}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>

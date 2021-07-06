@@ -29,6 +29,14 @@
 							<ObjectRef Name="foot_stone_R" ID="{F419D616-51E6-41F3-941C-8BC927D9563C}" WorkUnitID="{BBA7FF0A-F3A1-4AFD-89EE-F0CE64A4B417}"/>
 							<Position X="2" Y="1"/>
 						</Module>
+						<Module>
+							<ObjectRef Name="foot_stone_jump_launch" ID="{88F40E9B-35BF-405C-8A80-F5FA3B19508D}" WorkUnitID="{BBA7FF0A-F3A1-4AFD-89EE-F0CE64A4B417}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="foot_stone_jump_land" ID="{F4E0E122-0B9E-4E96-A75B-C9D1AF8F323A}" WorkUnitID="{BBA7FF0A-F3A1-4AFD-89EE-F0CE64A4B417}"/>
+							<Position X="3" Y="1"/>
+						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true"/>
 					<CurrentStateList ShowAll="true"/>
