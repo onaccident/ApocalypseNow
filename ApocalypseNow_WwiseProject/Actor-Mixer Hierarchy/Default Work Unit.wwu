@@ -442,8 +442,8 @@
 											<Modifier Name="" ID="{05C8D211-1052-4FCD-B238-E96EA782030F}">
 												<PropertyList>
 													<Property Name="Enabled" Type="bool" Value="True"/>
-													<Property Name="Max" Type="Real64" Value="2"/>
-													<Property Name="Min" Type="Real64" Value="-2"/>
+													<Property Name="Max" Type="Real64" Value="200"/>
+													<Property Name="Min" Type="Real64" Value="-200"/>
 												</PropertyList>
 											</Modifier>
 										</ModifierInfo>
@@ -496,8 +496,8 @@
 											<Modifier Name="" ID="{BA70783B-5AA0-484F-ADD6-86DB5054A0BE}">
 												<PropertyList>
 													<Property Name="Enabled" Type="bool" Value="True"/>
-													<Property Name="Max" Type="Real64" Value="2"/>
-													<Property Name="Min" Type="Real64" Value="-2"/>
+													<Property Name="Max" Type="Real64" Value="200"/>
+													<Property Name="Min" Type="Real64" Value="-200"/>
 												</PropertyList>
 											</Modifier>
 										</ModifierInfo>
@@ -547,8 +547,8 @@
 											<Modifier Name="" ID="{8625ED34-F022-46F6-9369-FBCA49CF0F84}">
 												<PropertyList>
 													<Property Name="Enabled" Type="bool" Value="True"/>
-													<Property Name="Max" Type="Real64" Value="2"/>
-													<Property Name="Min" Type="Real64" Value="-2"/>
+													<Property Name="Max" Type="Real64" Value="200"/>
+													<Property Name="Min" Type="Real64" Value="-200"/>
 												</PropertyList>
 											</Modifier>
 										</ModifierInfo>
@@ -598,8 +598,8 @@
 											<Modifier Name="" ID="{4867543F-6C0B-4FFA-874F-695A1C54EAD7}">
 												<PropertyList>
 													<Property Name="Enabled" Type="bool" Value="True"/>
-													<Property Name="Max" Type="Real64" Value="2"/>
-													<Property Name="Min" Type="Real64" Value="-2"/>
+													<Property Name="Max" Type="Real64" Value="200"/>
+													<Property Name="Min" Type="Real64" Value="-200"/>
 												</PropertyList>
 											</Modifier>
 										</ModifierInfo>
@@ -649,8 +649,8 @@
 											<Modifier Name="" ID="{79F83D7E-7021-412A-8221-54F5F150AFD6}">
 												<PropertyList>
 													<Property Name="Enabled" Type="bool" Value="True"/>
-													<Property Name="Max" Type="Real64" Value="2"/>
-													<Property Name="Min" Type="Real64" Value="-2"/>
+													<Property Name="Max" Type="Real64" Value="200"/>
+													<Property Name="Min" Type="Real64" Value="-200"/>
 												</PropertyList>
 											</Modifier>
 										</ModifierInfo>
@@ -783,8 +783,8 @@
 											<Modifier Name="" ID="{4BD7979F-263C-4A94-87E4-AA1FFBFCFB2A}">
 												<PropertyList>
 													<Property Name="Enabled" Type="bool" Value="True"/>
-													<Property Name="Max" Type="Real64" Value="2"/>
-													<Property Name="Min" Type="Real64" Value="-2"/>
+													<Property Name="Max" Type="Real64" Value="200"/>
+													<Property Name="Min" Type="Real64" Value="-200"/>
 												</PropertyList>
 											</Modifier>
 										</ModifierInfo>
@@ -922,8 +922,8 @@
 											<Modifier Name="" ID="{23EC4AF8-5FA5-42B3-A8D5-B477DB391B2B}">
 												<PropertyList>
 													<Property Name="Enabled" Type="bool" Value="True"/>
-													<Property Name="Max" Type="Real64" Value="2"/>
-													<Property Name="Min" Type="Real64" Value="-2"/>
+													<Property Name="Max" Type="Real64" Value="200"/>
+													<Property Name="Min" Type="Real64" Value="-200"/>
 												</PropertyList>
 											</Modifier>
 										</ModifierInfo>
@@ -1056,8 +1056,8 @@
 											<Modifier Name="" ID="{D56706CC-F6FF-487C-976A-5321F264EB52}">
 												<PropertyList>
 													<Property Name="Enabled" Type="bool" Value="True"/>
-													<Property Name="Max" Type="Real64" Value="2"/>
-													<Property Name="Min" Type="Real64" Value="-2"/>
+													<Property Name="Max" Type="Real64" Value="200"/>
+													<Property Name="Min" Type="Real64" Value="-200"/>
 												</PropertyList>
 											</Modifier>
 										</ModifierInfo>

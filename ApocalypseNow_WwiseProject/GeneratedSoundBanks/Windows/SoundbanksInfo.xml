@@ -16,12 +16,12 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="2578838441">
+		<SoundBank Id="3161908922" Language="SFX" Hash="168467271">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<IncludedEvents>
-				<Event Id="618419742" Name="foot_dirt_jump_land" ObjectPath="\Events\Default Work Unit\foot_dirt_jump_land" DurationType="OneShot" DurationMin="0.833203" DurationMax="0.835131">
+				<Event Id="618419742" Name="foot_dirt_jump_land" ObjectPath="\Events\Default Work Unit\foot_dirt_jump_land" DurationType="OneShot" DurationMin="0.743158" DurationMax="0.936320">
 					<IncludedMemoryFiles>
 						<File Id="843449187" Language="SFX">
 							<ShortName>SFX_210615_FeetDirtStone\LTSHell_SFX_JSO_FS_dirt_jump_land.wav</ShortName>
@@ -29,7 +29,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2379002856" Name="foot_dirt_jump_launch" ObjectPath="\Events\Default Work Unit\foot_dirt_jump_launch" DurationType="OneShot" DurationMin="0.583242" DurationMax="0.584592">
+				<Event Id="2379002856" Name="foot_dirt_jump_launch" ObjectPath="\Events\Default Work Unit\foot_dirt_jump_launch" DurationType="OneShot" DurationMin="0.520211" DurationMax="0.655424">
 					<IncludedMemoryFiles>
 						<File Id="379509120" Language="SFX">
 							<ShortName>SFX_210615_FeetDirtStone\LTSHell_SFX_JSO_FS_dirt_jump_launch.wav</ShortName>
@@ -37,7 +37,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1057979206" Name="foot_dirt_L" ObjectPath="\Events\Default Work Unit\foot_dirt_L" DurationType="OneShot" DurationMin="0.416602" DurationMax="0.501079">
+				<Event Id="1057979206" Name="foot_dirt_L" ObjectPath="\Events\Default Work Unit\foot_dirt_L" DurationType="OneShot" DurationMin="0.371579" DurationMax="0.561792">
 					<IncludedMemoryFiles>
 						<File Id="83380272" Language="SFX">
 							<ShortName>SFX_210615_FeetDirtStone\LTSHell_SFX_JSO_FS_dirt1.wav</ShortName>
@@ -57,7 +57,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1057979224" Name="foot_dirt_R" ObjectPath="\Events\Default Work Unit\foot_dirt_R" DurationType="OneShot" DurationMin="0.499922" DurationMax="0.501079">
+				<Event Id="1057979224" Name="foot_dirt_R" ObjectPath="\Events\Default Work Unit\foot_dirt_R" DurationType="OneShot" DurationMin="0.445895" DurationMax="0.561792">
 					<IncludedMemoryFiles>
 						<File Id="345686005" Language="SFX">
 							<ShortName>SFX_210615_FeetDirtStone\LTSHell_SFX_JSO_FS_dirt7.wav</ShortName>
@@ -77,7 +77,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3872514954" Name="foot_stone_jump_land" ObjectPath="\Events\Default Work Unit\foot_stone_jump_land" DurationType="OneShot" DurationMin="0.916524" DurationMax="0.918644">
+				<Event Id="3872514954" Name="foot_stone_jump_land" ObjectPath="\Events\Default Work Unit\foot_stone_jump_land" DurationType="OneShot" DurationMin="0.817474" DurationMax="1.029953">
 					<IncludedMemoryFiles>
 						<File Id="449311475" Language="SFX">
 							<ShortName>SFX_210615_FeetDirtStone\LTSHell_SFX_JSO_FS_stone_jump_land.wav</ShortName>
@@ -85,7 +85,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1141956292" Name="foot_stone_jump_launch" ObjectPath="\Events\Default Work Unit\foot_stone_jump_launch" DurationType="OneShot" DurationMin="0.541582" DurationMax="0.542835">
+				<Event Id="1141956292" Name="foot_stone_jump_launch" ObjectPath="\Events\Default Work Unit\foot_stone_jump_launch" DurationType="OneShot" DurationMin="0.483053" DurationMax="0.608608">
 					<IncludedMemoryFiles>
 						<File Id="1046683361" Language="SFX">
 							<ShortName>SFX_210615_FeetDirtStone\LTSHell_SFX_JSO_FS_stone_jump_launch.wav</ShortName>
@@ -93,7 +93,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="870183818" Name="foot_stone_L" ObjectPath="\Events\Default Work Unit\foot_stone_L" DurationType="OneShot" DurationMin="0.583242" DurationMax="0.584592">
+				<Event Id="870183818" Name="foot_stone_L" ObjectPath="\Events\Default Work Unit\foot_stone_L" DurationType="OneShot" DurationMin="0.520211" DurationMax="0.655424">
 					<IncludedMemoryFiles>
 						<File Id="823883284" Language="SFX">
 							<ShortName>SFX_210615_FeetDirtStone\LTSHell_SFX_JSO_FS_stone4.wav</ShortName>
@@ -113,7 +113,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="870183828" Name="foot_stone_R" ObjectPath="\Events\Default Work Unit\foot_stone_R" DurationType="OneShot" DurationMin="0.579850" DurationMax="0.584592">
+				<Event Id="870183828" Name="foot_stone_R" ObjectPath="\Events\Default Work Unit\foot_stone_R" DurationType="OneShot" DurationMin="0.517185" DurationMax="0.655424">
 					<IncludedMemoryFiles>
 						<File Id="66171229" Language="SFX">
 							<ShortName>SFX_210615_FeetDirtStone\LTSHell_SFX_JSO_FS_stone5.wav</ShortName>
