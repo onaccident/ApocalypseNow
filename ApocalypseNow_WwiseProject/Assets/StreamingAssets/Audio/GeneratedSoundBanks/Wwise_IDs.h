@@ -13,12 +13,10 @@ namespace AK
 {
     namespace EVENTS
     {
-        static const AkUniqueID FOOT_DIRT_JUMP_LAND = 618419742U;
-        static const AkUniqueID FOOT_DIRT_JUMP_LAUNCH = 2379002856U;
-        static const AkUniqueID FOOT_STONE_JUMP_LAND = 3872514954U;
-        static const AkUniqueID FOOT_STONE_JUMP_LAUNCH = 1141956292U;
         static const AkUniqueID MAINAMB_TRIGGER = 3843065399U;
         static const AkUniqueID PLAY_SFX_PLYRFOOTSTEPS = 2307068928U;
+        static const AkUniqueID PLAY_SFX_PLYRJUMPLAND = 4225642844U;
+        static const AkUniqueID PLAY_SFX_PLYRJUMPLAUNCH = 2916727514U;
         static const AkUniqueID SKULLAMB_TRIGGER = 3420260337U;
     } // namespace EVENTS
 

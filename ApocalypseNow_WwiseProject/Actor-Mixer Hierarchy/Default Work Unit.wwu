@@ -432,217 +432,7 @@
 						</RandomSequenceContainer>
 					</ChildrenList>
 				</Folder>
-				<Folder Name="SFX_210615_FeetDirtStone" ID="{269336B6-F795-4DE9-B277-82859EF41BA4}" ShortID="553353529">
-					<ChildrenList>
-						<Sound Name="LTSHell_SFX_JSO_FS_dirt_jump_land" ID="{5DB5A076-9899-48FC-9F49-889642A77FC2}" ShortID="127516960">
-							<PropertyList>
-								<Property Name="Pitch" Type="int32">
-									<ModifierList>
-										<ModifierInfo>
-											<Modifier Name="" ID="{05C8D211-1052-4FCD-B238-E96EA782030F}">
-												<PropertyList>
-													<Property Name="Enabled" Type="bool" Value="True"/>
-													<Property Name="Max" Type="Real64" Value="200"/>
-													<Property Name="Min" Type="Real64" Value="-200"/>
-												</PropertyList>
-											</Modifier>
-										</ModifierInfo>
-									</ModifierList>
-								</Property>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-6</Value>
-									</ValueList>
-									<ModifierList>
-										<ModifierInfo>
-											<Modifier Name="" ID="{5F423E63-FF26-429C-9A46-2E7FCCF0554C}">
-												<PropertyList>
-													<Property Name="Enabled" Type="bool" Value="True"/>
-													<Property Name="Max" Type="Real64" Value="1"/>
-													<Property Name="Min" Type="Real64" Value="-1"/>
-												</PropertyList>
-											</Modifier>
-										</ModifierInfo>
-									</ModifierList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{707979CC-651D-4D44-8623-BF15EF0346B9}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E3CDF4E7-AF10-45ED-A87C-87E0DAB3C410}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="LTSHell_SFX_JSO_FS_dirt_jump_land" ID="{BF20B1A6-C1EC-4280-ACF6-13DDE4A7FA65}">
-									<Language>SFX</Language>
-									<AudioFile>SFX_210615_FeetDirtStone\LTSHell_SFX_JSO_FS_dirt_jump_land.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="843449187"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ObjectLists/>
-							<ActiveSourceList>
-								<ActiveSource Name="LTSHell_SFX_JSO_FS_dirt_jump_land" ID="{BF20B1A6-C1EC-4280-ACF6-13DDE4A7FA65}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="LTSHell_SFX_JSO_FS_dirt_jump_launch" ID="{8B267DA6-2402-474D-99DB-359E14A6806B}" ShortID="851172829">
-							<PropertyList>
-								<Property Name="Pitch" Type="int32">
-									<ModifierList>
-										<ModifierInfo>
-											<Modifier Name="" ID="{BA70783B-5AA0-484F-ADD6-86DB5054A0BE}">
-												<PropertyList>
-													<Property Name="Enabled" Type="bool" Value="True"/>
-													<Property Name="Max" Type="Real64" Value="200"/>
-													<Property Name="Min" Type="Real64" Value="-200"/>
-												</PropertyList>
-											</Modifier>
-										</ModifierInfo>
-									</ModifierList>
-								</Property>
-								<Property Name="Volume" Type="Real64">
-									<ModifierList>
-										<ModifierInfo>
-											<Modifier Name="" ID="{D6CD89A5-3479-45A1-8A0A-733DBF12DEDC}">
-												<PropertyList>
-													<Property Name="Enabled" Type="bool" Value="True"/>
-													<Property Name="Max" Type="Real64" Value="1"/>
-													<Property Name="Min" Type="Real64" Value="-2"/>
-												</PropertyList>
-											</Modifier>
-										</ModifierInfo>
-									</ModifierList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{707979CC-651D-4D44-8623-BF15EF0346B9}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E3CDF4E7-AF10-45ED-A87C-87E0DAB3C410}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="LTSHell_SFX_JSO_FS_dirt_jump_launch" ID="{A2474494-5D8B-4F32-9DEF-FA83F12E265C}">
-									<Language>SFX</Language>
-									<AudioFile>SFX_210615_FeetDirtStone\LTSHell_SFX_JSO_FS_dirt_jump_launch.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="379509120"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ObjectLists/>
-							<ActiveSourceList>
-								<ActiveSource Name="LTSHell_SFX_JSO_FS_dirt_jump_launch" ID="{A2474494-5D8B-4F32-9DEF-FA83F12E265C}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="LTSHell_SFX_JSO_FS_stone_jump_land" ID="{23EEF892-3261-47F6-9329-6A4DD850E801}" ShortID="124151171">
-							<PropertyList>
-								<Property Name="Pitch" Type="int32">
-									<ModifierList>
-										<ModifierInfo>
-											<Modifier Name="" ID="{8625ED34-F022-46F6-9369-FBCA49CF0F84}">
-												<PropertyList>
-													<Property Name="Enabled" Type="bool" Value="True"/>
-													<Property Name="Max" Type="Real64" Value="200"/>
-													<Property Name="Min" Type="Real64" Value="-200"/>
-												</PropertyList>
-											</Modifier>
-										</ModifierInfo>
-									</ModifierList>
-								</Property>
-								<Property Name="Volume" Type="Real64">
-									<ModifierList>
-										<ModifierInfo>
-											<Modifier Name="" ID="{F142AA09-E485-4FAA-8529-E338145DA05C}">
-												<PropertyList>
-													<Property Name="Enabled" Type="bool" Value="True"/>
-													<Property Name="Max" Type="Real64" Value="1"/>
-													<Property Name="Min" Type="Real64" Value="-1"/>
-												</PropertyList>
-											</Modifier>
-										</ModifierInfo>
-									</ModifierList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{707979CC-651D-4D44-8623-BF15EF0346B9}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E3CDF4E7-AF10-45ED-A87C-87E0DAB3C410}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="LTSHell_SFX_JSO_FS_stone_jump_land" ID="{8EDBBA33-B5DB-4E73-B988-E13A485C3933}">
-									<Language>SFX</Language>
-									<AudioFile>SFX_210615_FeetDirtStone\LTSHell_SFX_JSO_FS_stone_jump_land.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="449311475"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ObjectLists/>
-							<ActiveSourceList>
-								<ActiveSource Name="LTSHell_SFX_JSO_FS_stone_jump_land" ID="{8EDBBA33-B5DB-4E73-B988-E13A485C3933}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="LTSHell_SFX_JSO_FS_stone_jump_launch" ID="{456D311A-F0DF-4F82-BACD-F16C9875998E}" ShortID="646179386">
-							<PropertyList>
-								<Property Name="Pitch" Type="int32">
-									<ModifierList>
-										<ModifierInfo>
-											<Modifier Name="" ID="{4867543F-6C0B-4FFA-874F-695A1C54EAD7}">
-												<PropertyList>
-													<Property Name="Enabled" Type="bool" Value="True"/>
-													<Property Name="Max" Type="Real64" Value="200"/>
-													<Property Name="Min" Type="Real64" Value="-200"/>
-												</PropertyList>
-											</Modifier>
-										</ModifierInfo>
-									</ModifierList>
-								</Property>
-								<Property Name="Volume" Type="Real64">
-									<ModifierList>
-										<ModifierInfo>
-											<Modifier Name="" ID="{CF2AE5C8-CEB9-4BA0-999E-AD58499BC29C}">
-												<PropertyList>
-													<Property Name="Enabled" Type="bool" Value="True"/>
-													<Property Name="Max" Type="Real64" Value="1"/>
-													<Property Name="Min" Type="Real64" Value="-1"/>
-												</PropertyList>
-											</Modifier>
-										</ModifierInfo>
-									</ModifierList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{707979CC-651D-4D44-8623-BF15EF0346B9}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E3CDF4E7-AF10-45ED-A87C-87E0DAB3C410}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="LTSHell_SFX_JSO_FS_stone_jump_launch" ID="{9B7B442D-E9C6-4E3C-A5AA-19AC798C3CC0}">
-									<Language>SFX</Language>
-									<AudioFile>SFX_210615_FeetDirtStone\LTSHell_SFX_JSO_FS_stone_jump_launch.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="1046683361"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ObjectLists/>
-							<ActiveSourceList>
-								<ActiveSource Name="LTSHell_SFX_JSO_FS_stone_jump_launch" ID="{9B7B442D-E9C6-4E3C-A5AA-19AC798C3CC0}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-					</ChildrenList>
-				</Folder>
+				<Folder Name="SFX_210615_FeetDirtStone" ID="{269336B6-F795-4DE9-B277-82859EF41BA4}" ShortID="553353529"/>
 				<SwitchContainer Name="SFX_switch_PlyrFootsteps" ID="{BEF97FD3-E185-405D-A563-37C46AA80445}" ShortID="623983972">
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -1263,6 +1053,293 @@
 								<SwitchRef Name="stone" ID="{A8602BB8-046D-450E-8430-FC554303C124}"/>
 								<ItemList>
 									<ItemRef Name="SFX_sequence_PlyrFootsteps_stone" ID="{878F759C-F93D-4EC9-A83A-98E848144C85}"/>
+								</ItemList>
+							</Grouping>
+						</GroupingList>
+					</GroupingInfo>
+				</SwitchContainer>
+				<SwitchContainer Name="SFX_switch_PlyrJumpLaunch" ID="{0227D8DA-0DE0-4C70-97D2-D66FD5FECF6F}" ShortID="1329995">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{707979CC-651D-4D44-8623-BF15EF0346B9}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E3CDF4E7-AF10-45ED-A87C-87E0DAB3C410}"/>
+						</Reference>
+						<Reference Name="SwitchGroupOrStateGroup">
+							<ObjectRef Name="Surface" ID="{ABAD78A9-8D5A-4012-9901-EA8E48942A3D}" WorkUnitID="{466247E7-B656-4939-AB28-49C85527BDF5}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="LTSHell_SFX_JSO_FS_dirt_jump_launch" ID="{8B267DA6-2402-474D-99DB-359E14A6806B}" ShortID="851172829">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{BA70783B-5AA0-484F-ADD6-86DB5054A0BE}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="200"/>
+													<Property Name="Min" Type="Real64" Value="-200"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{D6CD89A5-3479-45A1-8A0A-733DBF12DEDC}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="1"/>
+													<Property Name="Min" Type="Real64" Value="-2"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{707979CC-651D-4D44-8623-BF15EF0346B9}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E3CDF4E7-AF10-45ED-A87C-87E0DAB3C410}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="LTSHell_SFX_JSO_FS_dirt_jump_launch" ID="{A2474494-5D8B-4F32-9DEF-FA83F12E265C}">
+									<Language>SFX</Language>
+									<AudioFile>SFX_210615_FeetDirtStone\LTSHell_SFX_JSO_FS_dirt_jump_launch.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="379509120"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="LTSHell_SFX_JSO_FS_dirt_jump_launch" ID="{A2474494-5D8B-4F32-9DEF-FA83F12E265C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="LTSHell_SFX_JSO_FS_stone_jump_launch" ID="{456D311A-F0DF-4F82-BACD-F16C9875998E}" ShortID="646179386">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{4867543F-6C0B-4FFA-874F-695A1C54EAD7}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="200"/>
+													<Property Name="Min" Type="Real64" Value="-200"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{CF2AE5C8-CEB9-4BA0-999E-AD58499BC29C}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="1"/>
+													<Property Name="Min" Type="Real64" Value="-1"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{707979CC-651D-4D44-8623-BF15EF0346B9}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E3CDF4E7-AF10-45ED-A87C-87E0DAB3C410}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="LTSHell_SFX_JSO_FS_stone_jump_launch" ID="{9B7B442D-E9C6-4E3C-A5AA-19AC798C3CC0}">
+									<Language>SFX</Language>
+									<AudioFile>SFX_210615_FeetDirtStone\LTSHell_SFX_JSO_FS_stone_jump_launch.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1046683361"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="LTSHell_SFX_JSO_FS_stone_jump_launch" ID="{9B7B442D-E9C6-4E3C-A5AA-19AC798C3CC0}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<ObjectLists/>
+					<GroupingInfo>
+						<GroupingBehaviorList>
+							<GroupingBehavior>
+								<ItemRef Name="LTSHell_SFX_JSO_FS_stone_jump_launch" ID="{456D311A-F0DF-4F82-BACD-F16C9875998E}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="LTSHell_SFX_JSO_FS_dirt_jump_launch" ID="{8B267DA6-2402-474D-99DB-359E14A6806B}"/>
+							</GroupingBehavior>
+						</GroupingBehaviorList>
+						<GroupingList>
+							<Grouping>
+								<SwitchRef Name="dirt" ID="{74F9DE8C-C72D-4181-8A94-C235CA31E58F}"/>
+								<ItemList>
+									<ItemRef Name="LTSHell_SFX_JSO_FS_dirt_jump_launch" ID="{8B267DA6-2402-474D-99DB-359E14A6806B}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="stone" ID="{A8602BB8-046D-450E-8430-FC554303C124}"/>
+								<ItemList>
+									<ItemRef Name="LTSHell_SFX_JSO_FS_stone_jump_launch" ID="{456D311A-F0DF-4F82-BACD-F16C9875998E}"/>
+								</ItemList>
+							</Grouping>
+						</GroupingList>
+					</GroupingInfo>
+				</SwitchContainer>
+				<SwitchContainer Name="SFX_switch_PlyrJumpLand" ID="{0086B59C-90BF-4E47-83F4-76634FD73920}" ShortID="884878781">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{707979CC-651D-4D44-8623-BF15EF0346B9}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E3CDF4E7-AF10-45ED-A87C-87E0DAB3C410}"/>
+						</Reference>
+						<Reference Name="SwitchGroupOrStateGroup">
+							<ObjectRef Name="Surface" ID="{ABAD78A9-8D5A-4012-9901-EA8E48942A3D}" WorkUnitID="{466247E7-B656-4939-AB28-49C85527BDF5}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="LTSHell_SFX_JSO_FS_dirt_jump_land" ID="{5DB5A076-9899-48FC-9F49-889642A77FC2}" ShortID="127516960">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{05C8D211-1052-4FCD-B238-E96EA782030F}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="200"/>
+													<Property Name="Min" Type="Real64" Value="-200"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{5F423E63-FF26-429C-9A46-2E7FCCF0554C}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="1"/>
+													<Property Name="Min" Type="Real64" Value="-1"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{707979CC-651D-4D44-8623-BF15EF0346B9}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E3CDF4E7-AF10-45ED-A87C-87E0DAB3C410}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="LTSHell_SFX_JSO_FS_dirt_jump_land" ID="{BF20B1A6-C1EC-4280-ACF6-13DDE4A7FA65}">
+									<Language>SFX</Language>
+									<AudioFile>SFX_210615_FeetDirtStone\LTSHell_SFX_JSO_FS_dirt_jump_land.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="843449187"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="LTSHell_SFX_JSO_FS_dirt_jump_land" ID="{BF20B1A6-C1EC-4280-ACF6-13DDE4A7FA65}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="LTSHell_SFX_JSO_FS_stone_jump_land" ID="{23EEF892-3261-47F6-9329-6A4DD850E801}" ShortID="124151171">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{8625ED34-F022-46F6-9369-FBCA49CF0F84}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="200"/>
+													<Property Name="Min" Type="Real64" Value="-200"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{F142AA09-E485-4FAA-8529-E338145DA05C}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="1"/>
+													<Property Name="Min" Type="Real64" Value="-1"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{707979CC-651D-4D44-8623-BF15EF0346B9}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E3CDF4E7-AF10-45ED-A87C-87E0DAB3C410}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="LTSHell_SFX_JSO_FS_stone_jump_land" ID="{8EDBBA33-B5DB-4E73-B988-E13A485C3933}">
+									<Language>SFX</Language>
+									<AudioFile>SFX_210615_FeetDirtStone\LTSHell_SFX_JSO_FS_stone_jump_land.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="449311475"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="LTSHell_SFX_JSO_FS_stone_jump_land" ID="{8EDBBA33-B5DB-4E73-B988-E13A485C3933}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<ObjectLists/>
+					<GroupingInfo>
+						<GroupingBehaviorList>
+							<GroupingBehavior>
+								<ItemRef Name="LTSHell_SFX_JSO_FS_dirt_jump_land" ID="{5DB5A076-9899-48FC-9F49-889642A77FC2}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="LTSHell_SFX_JSO_FS_stone_jump_land" ID="{23EEF892-3261-47F6-9329-6A4DD850E801}"/>
+							</GroupingBehavior>
+						</GroupingBehaviorList>
+						<GroupingList>
+							<Grouping>
+								<SwitchRef Name="dirt" ID="{74F9DE8C-C72D-4181-8A94-C235CA31E58F}"/>
+								<ItemList>
+									<ItemRef Name="LTSHell_SFX_JSO_FS_dirt_jump_land" ID="{5DB5A076-9899-48FC-9F49-889642A77FC2}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="stone" ID="{A8602BB8-046D-450E-8430-FC554303C124}"/>
+								<ItemList>
+									<ItemRef Name="LTSHell_SFX_JSO_FS_stone_jump_land" ID="{23EEF892-3261-47F6-9329-6A4DD850E801}"/>
 								</ItemList>
 							</Grouping>
 						</GroupingList>

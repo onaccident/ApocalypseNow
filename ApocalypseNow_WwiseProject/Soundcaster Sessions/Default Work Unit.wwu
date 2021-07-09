@@ -14,6 +14,10 @@
 							<Position X="0" Y="1"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Play_SFX_PlyrFootsteps" ID="{73488355-B661-44D8-9736-EF3ECF30CD04}" WorkUnitID="{BBA7FF0A-F3A1-4AFD-89EE-F0CE64A4B417}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="foot_dirt_jump_launch" ID="{329049C4-E332-4FCE-93F2-E605E384775E}" WorkUnitID="{BBA7FF0A-F3A1-4AFD-89EE-F0CE64A4B417}"/>
 							<Position X="1" Y="0"/>
 						</Module>
@@ -22,12 +26,20 @@
 							<Position X="1" Y="1"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Play_SFX_PlyrJumpLaunch" ID="{33A3EB91-28D8-42D9-918C-6A1DA0E56823}" WorkUnitID="{BBA7FF0A-F3A1-4AFD-89EE-F0CE64A4B417}"/>
+							<Position X="1" Y="2"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="foot_stone_L" ID="{EC1A8766-695F-4EB0-ADA1-8CD50BA4D9E8}" WorkUnitID="{BBA7FF0A-F3A1-4AFD-89EE-F0CE64A4B417}"/>
 							<Position X="2" Y="0"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="foot_stone_R" ID="{F419D616-51E6-41F3-941C-8BC927D9563C}" WorkUnitID="{BBA7FF0A-F3A1-4AFD-89EE-F0CE64A4B417}"/>
 							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_SFX_PlyrJumpLand" ID="{0E4300F6-431D-4403-952E-4FF54C5CF940}" WorkUnitID="{BBA7FF0A-F3A1-4AFD-89EE-F0CE64A4B417}"/>
+							<Position X="2" Y="2"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="foot_stone_jump_launch" ID="{88F40E9B-35BF-405C-8A80-F5FA3B19508D}" WorkUnitID="{BBA7FF0A-F3A1-4AFD-89EE-F0CE64A4B417}"/>
@@ -41,7 +53,7 @@
 					<RTPCValueList ShowAll="true"/>
 					<CurrentStateList ShowAll="true"/>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="dirt" ID="{74F9DE8C-C72D-4181-8A94-C235CA31E58F}"/>
+						<CurrentSwitchRef Name="stone" ID="{A8602BB8-046D-450E-8430-FC554303C124}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>

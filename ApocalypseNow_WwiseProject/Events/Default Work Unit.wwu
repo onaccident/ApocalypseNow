@@ -135,6 +135,28 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_SFX_PlyrJumpLand" ID="{0E4300F6-431D-4403-952E-4FF54C5CF940}">
+					<ChildrenList>
+						<Action Name="" ID="{0FDA303B-E8D5-4646-A3F6-CCA909A7EAE3}" ShortID="565880533">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_switch_PlyrJumpLand" ID="{0086B59C-90BF-4E47-83F4-76634FD73920}" WorkUnitID="{09F03C2A-3A72-4692-9A31-CDF2B82672A0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_SFX_PlyrJumpLaunch" ID="{33A3EB91-28D8-42D9-918C-6A1DA0E56823}">
+					<ChildrenList>
+						<Action Name="" ID="{C6AD0124-02CC-46D8-8189-CD994B403658}" ShortID="7160194">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_switch_PlyrJumpLaunch" ID="{0227D8DA-0DE0-4C70-97D2-D66FD5FECF6F}" WorkUnitID="{09F03C2A-3A72-4692-9A31-CDF2B82672A0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

@@ -16,43 +16,11 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="656355673">
+		<SoundBank Id="3161908922" Language="SFX" Hash="316256804">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<IncludedEvents>
-				<Event Id="618419742" Name="foot_dirt_jump_land" ObjectPath="\Events\Default Work Unit\foot_dirt_jump_land" DurationType="OneShot" DurationMin="0.743158" DurationMax="0.936320">
-					<IncludedMemoryFiles>
-						<File Id="843449187" Language="SFX">
-							<ShortName>SFX_210615_FeetDirtStone\LTSHell_SFX_JSO_FS_dirt_jump_land.wav</ShortName>
-							<Path>SFX/SFX_210615_FeetDirtStone/LTSHell_SFX_JSO_FS_dirt_jump_land_10C4C929.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
-				<Event Id="2379002856" Name="foot_dirt_jump_launch" ObjectPath="\Events\Default Work Unit\foot_dirt_jump_launch" DurationType="OneShot" DurationMin="0.520211" DurationMax="0.655424">
-					<IncludedMemoryFiles>
-						<File Id="379509120" Language="SFX">
-							<ShortName>SFX_210615_FeetDirtStone\LTSHell_SFX_JSO_FS_dirt_jump_launch.wav</ShortName>
-							<Path>SFX/SFX_210615_FeetDirtStone/LTSHell_SFX_JSO_FS_dirt_jump_launch_10C4C929.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
-				<Event Id="3872514954" Name="foot_stone_jump_land" ObjectPath="\Events\Default Work Unit\foot_stone_jump_land" DurationType="OneShot" DurationMin="0.817474" DurationMax="1.029953">
-					<IncludedMemoryFiles>
-						<File Id="449311475" Language="SFX">
-							<ShortName>SFX_210615_FeetDirtStone\LTSHell_SFX_JSO_FS_stone_jump_land.wav</ShortName>
-							<Path>SFX/SFX_210615_FeetDirtStone/LTSHell_SFX_JSO_FS_stone_jump_land_10C4C929.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
-				<Event Id="1141956292" Name="foot_stone_jump_launch" ObjectPath="\Events\Default Work Unit\foot_stone_jump_launch" DurationType="OneShot" DurationMin="0.483053" DurationMax="0.608608">
-					<IncludedMemoryFiles>
-						<File Id="1046683361" Language="SFX">
-							<ShortName>SFX_210615_FeetDirtStone\LTSHell_SFX_JSO_FS_stone_jump_launch.wav</ShortName>
-							<Path>SFX/SFX_210615_FeetDirtStone/LTSHell_SFX_JSO_FS_stone_jump_launch_10C4C929.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
 				<Event Id="3843065399" Name="MainAmb_Trigger" ObjectPath="\Events\Default Work Unit\MainAmb_Trigger" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="9323277" Language="SFX">
@@ -188,6 +156,54 @@
 								<File Id="1000088214"/>
 								<File Id="1002163670"/>
 								<File Id="1024803693"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="4225642844" Name="Play_SFX_PlyrJumpLand" ObjectPath="\Events\Default Work Unit\Play_SFX_PlyrJumpLand" DurationType="OneShot" DurationMin="0.743158" DurationMax="1.029953">
+					<IncludedMemoryFiles>
+						<File Id="449311475" Language="SFX">
+							<ShortName>SFX_210615_FeetDirtStone\LTSHell_SFX_JSO_FS_stone_jump_land.wav</ShortName>
+							<Path>SFX/SFX_210615_FeetDirtStone/LTSHell_SFX_JSO_FS_stone_jump_land_10C4C929.wem</Path>
+						</File>
+						<File Id="843449187" Language="SFX">
+							<ShortName>SFX_210615_FeetDirtStone\LTSHell_SFX_JSO_FS_dirt_jump_land.wav</ShortName>
+							<Path>SFX/SFX_210615_FeetDirtStone/LTSHell_SFX_JSO_FS_dirt_jump_land_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{74F9DE8C-C72D-4181-8A94-C235CA31E58F}">
+							<Media>
+								<File Id="843449187"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{A8602BB8-046D-450E-8430-FC554303C124}">
+							<Media>
+								<File Id="449311475"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="2916727514" Name="Play_SFX_PlyrJumpLaunch" ObjectPath="\Events\Default Work Unit\Play_SFX_PlyrJumpLaunch" DurationType="OneShot" DurationMin="0.483053" DurationMax="0.655424">
+					<IncludedMemoryFiles>
+						<File Id="379509120" Language="SFX">
+							<ShortName>SFX_210615_FeetDirtStone\LTSHell_SFX_JSO_FS_dirt_jump_launch.wav</ShortName>
+							<Path>SFX/SFX_210615_FeetDirtStone/LTSHell_SFX_JSO_FS_dirt_jump_launch_10C4C929.wem</Path>
+						</File>
+						<File Id="1046683361" Language="SFX">
+							<ShortName>SFX_210615_FeetDirtStone\LTSHell_SFX_JSO_FS_stone_jump_launch.wav</ShortName>
+							<Path>SFX/SFX_210615_FeetDirtStone/LTSHell_SFX_JSO_FS_stone_jump_launch_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{74F9DE8C-C72D-4181-8A94-C235CA31E58F}">
+							<Media>
+								<File Id="379509120"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{A8602BB8-046D-450E-8430-FC554303C124}">
+							<Media>
+								<File Id="1046683361"/>
 							</Media>
 						</SwitchContainer>
 					</SwitchContainers>
