@@ -1,11 +1,13 @@
 ﻿using UnityEngine;
+using AK;
 
 public class SC_HeadBobber : MonoBehaviour
 {
     public float walkingBobbingSpeed = 14f;
     public float bobbingAmount = 0.05f;
     public SC_CharacterController controller;
-
+    public AkEvent footstepTrigger;
+    public GameObject footstepObject;
     float defaultPosY = 0;
     float timer = 0;
 

@@ -1,67 +1,95 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>/Users/jeremyscottolsenMP/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/z:/Volumes/Samsung1TB/WORK GitHub/MeganFrazier/ApocalypseNow_WwiseProject/</ProjectRoot>
-		<SourceFilesRoot>/Users/jeremyscottolsenMP/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/z:/Volumes/Samsung1TB/WORK GitHub/MeganFrazier/ApocalypseNow_WwiseProject/.cache/Mac/</SourceFilesRoot>
-		<SoundBanksRoot>/Users/jeremyscottolsenMP/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/z:/Volumes/Samsung1TB/WORK GitHub/MeganFrazier/ApocalypseNow_WwiseProject/GeneratedSoundBanks/Mac/</SoundBanksRoot>
+		<ProjectRoot>C:\Users\GygaxiMAAX\Documents\GitHub\ApocalypseNow\ApocalypseNow_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\GygaxiMAAX\Documents\GitHub\ApocalypseNow\ApocalypseNow_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\GygaxiMAAX\Documents\GitHub\ApocalypseNow\ApocalypseNow_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>/Users/jeremyscottolsenMP/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/z:/Volumes/Samsung1TB/WORK GitHub/MeganFrazier/ApocalypseNow_WwiseProject/GeneratedSoundBanks/Mac</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\GygaxiMAAX\Documents\GitHub\ApocalypseNow\ApocalypseNow_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Language="SFX" Hash="3571719261">
+		<SoundBank Id="1355168291" Language="SFX" Hash="9076770">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="316256804">
+		<SoundBank Id="3161908922" Language="SFX" Hash="2744827114">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<IncludedEvents>
+				<Event Id="2379002856" Name="foot_dirt_jump_launch" ObjectPath="\Events\Default Work Unit\foot_dirt_jump_launch" DurationType="OneShot" DurationMin="0.520211" DurationMax="0.655424">
+					<IncludedMemoryFiles>
+						<File Id="379509120" Language="SFX">
+							<ShortName>SFX_210615_FeetDirtStone\LTSHell_SFX_JSO_FS_dirt_jump_launch.wav</ShortName>
+							<Path>SFX\SFX_210615_FeetDirtStone\LTSHell_SFX_JSO_FS_dirt_jump_launch_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1057979224" Name="foot_dirt_R" ObjectPath="\Events\Default Work Unit\foot_dirt_R" DurationType="OneShot" DurationMin="0.445895" DurationMax="0.561792">
+					<IncludedMemoryFiles>
+						<File Id="345686005" Language="SFX">
+							<ShortName>SFX_210615_FeetDirtStone\LTSHell_SFX_JSO_FS_dirt7.wav</ShortName>
+							<Path>SFX\SFX_210615_FeetDirtStone\LTSHell_SFX_JSO_FS_dirt7_10C4C929.wem</Path>
+						</File>
+						<File Id="365168016" Language="SFX">
+							<ShortName>SFX_210615_FeetDirtStone\LTSHell_SFX_JSO_FS_dirt5.wav</ShortName>
+							<Path>SFX\SFX_210615_FeetDirtStone\LTSHell_SFX_JSO_FS_dirt5_10C4C929.wem</Path>
+						</File>
+						<File Id="804292496" Language="SFX">
+							<ShortName>SFX_210615_FeetDirtStone\LTSHell_SFX_JSO_FS_dirt6.wav</ShortName>
+							<Path>SFX\SFX_210615_FeetDirtStone\LTSHell_SFX_JSO_FS_dirt6_10C4C929.wem</Path>
+						</File>
+						<File Id="896195382" Language="SFX">
+							<ShortName>SFX_210615_FeetDirtStone\LTSHell_SFX_JSO_FS_dirt8.wav</ShortName>
+							<Path>SFX\SFX_210615_FeetDirtStone\LTSHell_SFX_JSO_FS_dirt8_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="3843065399" Name="MainAmb_Trigger" ObjectPath="\Events\Default Work Unit\MainAmb_Trigger" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="9323277" Language="SFX">
 							<ShortName>Hell Sweetener 5.20.21.wav</ShortName>
-							<Path>SFX/Hell Sweetener 5.20.21_F56C62FD.wem</Path>
+							<Path>SFX\Hell Sweetener 5.20.21_F56C62FD.wem</Path>
 						</File>
 						<File Id="98704145" Language="SFX">
 							<ShortName>Hell Sweetener 5.20.21.wav</ShortName>
-							<Path>SFX/Hell Sweetener 5.20.21_B9879D58.wem</Path>
+							<Path>SFX\Hell Sweetener 5.20.21_B9879D58.wem</Path>
 						</File>
 						<File Id="108502830" Language="SFX">
 							<ShortName>Hell Sweetener 5.20.21.wav</ShortName>
-							<Path>SFX/Hell Sweetener 5.20.21_200DD57A.wem</Path>
+							<Path>SFX\Hell Sweetener 5.20.21_200DD57A.wem</Path>
 						</File>
 						<File Id="333372870" Language="SFX">
 							<ShortName>Hell Sweetener 5.20.21.wav</ShortName>
-							<Path>SFX/Hell Sweetener 5.20.21_DD38E161.wem</Path>
+							<Path>SFX\Hell Sweetener 5.20.21_DD38E161.wem</Path>
 						</File>
 						<File Id="377480960" Language="SFX">
 							<ShortName>Hell Sweetener 5.20.21.wav</ShortName>
-							<Path>SFX/Hell Sweetener 5.20.21_B6A49DEC.wem</Path>
+							<Path>SFX\Hell Sweetener 5.20.21_B6A49DEC.wem</Path>
 						</File>
 						<File Id="410294409" Language="SFX">
 							<ShortName>Hell Sweetener 5.20.21.wav</ShortName>
-							<Path>SFX/Hell Sweetener 5.20.21_BFC2D6E6.wem</Path>
+							<Path>SFX\Hell Sweetener 5.20.21_BFC2D6E6.wem</Path>
 						</File>
 						<File Id="537799215" Language="SFX">
 							<ShortName>Hell Sweetener 5.20.21.wav</ShortName>
-							<Path>SFX/Hell Sweetener 5.20.21_EC8B8B42.wem</Path>
+							<Path>SFX\Hell Sweetener 5.20.21_EC8B8B42.wem</Path>
 						</File>
 						<File Id="648896493" Language="SFX">
 							<ShortName>Hell Sweetener 5.20.21.wav</ShortName>
-							<Path>SFX/Hell Sweetener 5.20.21_EA38B9CB.wem</Path>
+							<Path>SFX\Hell Sweetener 5.20.21_EA38B9CB.wem</Path>
 						</File>
 						<File Id="905201629" Language="SFX">
 							<ShortName>Hell Base Ambience 5.20.21.wav</ShortName>
-							<Path>SFX/Hell Base Ambience 5.20.21_76FC985C.wem</Path>
+							<Path>SFX\Hell Base Ambience 5.20.21_76FC985C.wem</Path>
 						</File>
 						<File Id="1037168783" Language="SFX">
 							<ShortName>Hell Sweetener 5.20.21.wav</ShortName>
-							<Path>SFX/Hell Sweetener 5.20.21_FE9FB999.wem</Path>
+							<Path>SFX\Hell Sweetener 5.20.21_FE9FB999.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -69,106 +97,79 @@
 					<IncludedMemoryFiles>
 						<File Id="66171229" Language="SFX">
 							<ShortName>SFX_210615_FeetDirtStone\LTSHell_SFX_JSO_FS_stone5.wav</ShortName>
-							<Path>SFX/SFX_210615_FeetDirtStone/LTSHell_SFX_JSO_FS_stone5_10C4C929.wem</Path>
+							<Path>SFX\SFX_210615_FeetDirtStone\LTSHell_SFX_JSO_FS_stone5_10C4C929.wem</Path>
 						</File>
 						<File Id="83380272" Language="SFX">
 							<ShortName>SFX_210615_FeetDirtStone\LTSHell_SFX_JSO_FS_dirt1.wav</ShortName>
-							<Path>SFX/SFX_210615_FeetDirtStone/LTSHell_SFX_JSO_FS_dirt1_10C4C929.wem</Path>
+							<Path>SFX\SFX_210615_FeetDirtStone\LTSHell_SFX_JSO_FS_dirt1_10C4C929.wem</Path>
 						</File>
 						<File Id="236287811" Language="SFX">
 							<ShortName>SFX_210615_FeetDirtStone\LTSHell_SFX_JSO_FS_dirt4.wav</ShortName>
-							<Path>SFX/SFX_210615_FeetDirtStone/LTSHell_SFX_JSO_FS_dirt4_10C4C929.wem</Path>
+							<Path>SFX\SFX_210615_FeetDirtStone\LTSHell_SFX_JSO_FS_dirt4_10C4C929.wem</Path>
 						</File>
 						<File Id="345686005" Language="SFX">
 							<ShortName>SFX_210615_FeetDirtStone\LTSHell_SFX_JSO_FS_dirt7.wav</ShortName>
-							<Path>SFX/SFX_210615_FeetDirtStone/LTSHell_SFX_JSO_FS_dirt7_10C4C929.wem</Path>
+							<Path>SFX\SFX_210615_FeetDirtStone\LTSHell_SFX_JSO_FS_dirt7_10C4C929.wem</Path>
 						</File>
 						<File Id="355906035" Language="SFX">
 							<ShortName>SFX_210615_FeetDirtStone\LTSHell_SFX_JSO_FS_stone6.wav</ShortName>
-							<Path>SFX/SFX_210615_FeetDirtStone/LTSHell_SFX_JSO_FS_stone6_10C4C929.wem</Path>
+							<Path>SFX\SFX_210615_FeetDirtStone\LTSHell_SFX_JSO_FS_stone6_10C4C929.wem</Path>
 						</File>
 						<File Id="365168016" Language="SFX">
 							<ShortName>SFX_210615_FeetDirtStone\LTSHell_SFX_JSO_FS_dirt5.wav</ShortName>
-							<Path>SFX/SFX_210615_FeetDirtStone/LTSHell_SFX_JSO_FS_dirt5_10C4C929.wem</Path>
+							<Path>SFX\SFX_210615_FeetDirtStone\LTSHell_SFX_JSO_FS_dirt5_10C4C929.wem</Path>
 						</File>
 						<File Id="541377125" Language="SFX">
 							<ShortName>SFX_210615_FeetDirtStone\LTSHell_SFX_JSO_FS_stone8.wav</ShortName>
-							<Path>SFX/SFX_210615_FeetDirtStone/LTSHell_SFX_JSO_FS_stone8_10C4C929.wem</Path>
+							<Path>SFX\SFX_210615_FeetDirtStone\LTSHell_SFX_JSO_FS_stone8_10C4C929.wem</Path>
 						</File>
 						<File Id="658808858" Language="SFX">
 							<ShortName>SFX_210615_FeetDirtStone\LTSHell_SFX_JSO_FS_dirt2.wav</ShortName>
-							<Path>SFX/SFX_210615_FeetDirtStone/LTSHell_SFX_JSO_FS_dirt2_10C4C929.wem</Path>
+							<Path>SFX\SFX_210615_FeetDirtStone\LTSHell_SFX_JSO_FS_dirt2_10C4C929.wem</Path>
 						</File>
 						<File Id="760931828" Language="SFX">
 							<ShortName>SFX_210615_FeetDirtStone\LTSHell_SFX_JSO_FS_dirt3.wav</ShortName>
-							<Path>SFX/SFX_210615_FeetDirtStone/LTSHell_SFX_JSO_FS_dirt3_10C4C929.wem</Path>
+							<Path>SFX\SFX_210615_FeetDirtStone\LTSHell_SFX_JSO_FS_dirt3_10C4C929.wem</Path>
 						</File>
 						<File Id="804292496" Language="SFX">
 							<ShortName>SFX_210615_FeetDirtStone\LTSHell_SFX_JSO_FS_dirt6.wav</ShortName>
-							<Path>SFX/SFX_210615_FeetDirtStone/LTSHell_SFX_JSO_FS_dirt6_10C4C929.wem</Path>
+							<Path>SFX\SFX_210615_FeetDirtStone\LTSHell_SFX_JSO_FS_dirt6_10C4C929.wem</Path>
 						</File>
 						<File Id="823883284" Language="SFX">
 							<ShortName>SFX_210615_FeetDirtStone\LTSHell_SFX_JSO_FS_stone4.wav</ShortName>
-							<Path>SFX/SFX_210615_FeetDirtStone/LTSHell_SFX_JSO_FS_stone4_10C4C929.wem</Path>
+							<Path>SFX\SFX_210615_FeetDirtStone\LTSHell_SFX_JSO_FS_stone4_10C4C929.wem</Path>
 						</File>
 						<File Id="896195382" Language="SFX">
 							<ShortName>SFX_210615_FeetDirtStone\LTSHell_SFX_JSO_FS_dirt8.wav</ShortName>
-							<Path>SFX/SFX_210615_FeetDirtStone/LTSHell_SFX_JSO_FS_dirt8_10C4C929.wem</Path>
+							<Path>SFX\SFX_210615_FeetDirtStone\LTSHell_SFX_JSO_FS_dirt8_10C4C929.wem</Path>
 						</File>
 						<File Id="988595697" Language="SFX">
 							<ShortName>SFX_210615_FeetDirtStone\LTSHell_SFX_JSO_FS_stone1.wav</ShortName>
-							<Path>SFX/SFX_210615_FeetDirtStone/LTSHell_SFX_JSO_FS_stone1_10C4C929.wem</Path>
+							<Path>SFX\SFX_210615_FeetDirtStone\LTSHell_SFX_JSO_FS_stone1_10C4C929.wem</Path>
 						</File>
 						<File Id="1000088214" Language="SFX">
 							<ShortName>SFX_210615_FeetDirtStone\LTSHell_SFX_JSO_FS_stone7.wav</ShortName>
-							<Path>SFX/SFX_210615_FeetDirtStone/LTSHell_SFX_JSO_FS_stone7_10C4C929.wem</Path>
+							<Path>SFX\SFX_210615_FeetDirtStone\LTSHell_SFX_JSO_FS_stone7_10C4C929.wem</Path>
 						</File>
 						<File Id="1002163670" Language="SFX">
 							<ShortName>SFX_210615_FeetDirtStone\LTSHell_SFX_JSO_FS_stone3.wav</ShortName>
-							<Path>SFX/SFX_210615_FeetDirtStone/LTSHell_SFX_JSO_FS_stone3_10C4C929.wem</Path>
+							<Path>SFX\SFX_210615_FeetDirtStone\LTSHell_SFX_JSO_FS_stone3_10C4C929.wem</Path>
 						</File>
 						<File Id="1024803693" Language="SFX">
 							<ShortName>SFX_210615_FeetDirtStone\LTSHell_SFX_JSO_FS_stone2.wav</ShortName>
-							<Path>SFX/SFX_210615_FeetDirtStone/LTSHell_SFX_JSO_FS_stone2_10C4C929.wem</Path>
+							<Path>SFX\SFX_210615_FeetDirtStone\LTSHell_SFX_JSO_FS_stone2_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
-					<DefaultSwitchValue>{74F9DE8C-C72D-4181-8A94-C235CA31E58F}</DefaultSwitchValue>
-					<SwitchContainers>
-						<SwitchContainer SwitchValue="{74F9DE8C-C72D-4181-8A94-C235CA31E58F}">
-							<Media>
-								<File Id="83380272"/>
-								<File Id="236287811"/>
-								<File Id="345686005"/>
-								<File Id="365168016"/>
-								<File Id="658808858"/>
-								<File Id="760931828"/>
-								<File Id="804292496"/>
-								<File Id="896195382"/>
-							</Media>
-						</SwitchContainer>
-						<SwitchContainer SwitchValue="{A8602BB8-046D-450E-8430-FC554303C124}">
-							<Media>
-								<File Id="66171229"/>
-								<File Id="355906035"/>
-								<File Id="541377125"/>
-								<File Id="823883284"/>
-								<File Id="988595697"/>
-								<File Id="1000088214"/>
-								<File Id="1002163670"/>
-								<File Id="1024803693"/>
-							</Media>
-						</SwitchContainer>
-					</SwitchContainers>
 				</Event>
 				<Event Id="4225642844" Name="Play_SFX_PlyrJumpLand" ObjectPath="\Events\Default Work Unit\Play_SFX_PlyrJumpLand" DurationType="OneShot" DurationMin="0.743158" DurationMax="1.029953">
 					<IncludedMemoryFiles>
 						<File Id="449311475" Language="SFX">
 							<ShortName>SFX_210615_FeetDirtStone\LTSHell_SFX_JSO_FS_stone_jump_land.wav</ShortName>
-							<Path>SFX/SFX_210615_FeetDirtStone/LTSHell_SFX_JSO_FS_stone_jump_land_10C4C929.wem</Path>
+							<Path>SFX\SFX_210615_FeetDirtStone\LTSHell_SFX_JSO_FS_stone_jump_land_10C4C929.wem</Path>
 						</File>
 						<File Id="843449187" Language="SFX">
 							<ShortName>SFX_210615_FeetDirtStone\LTSHell_SFX_JSO_FS_dirt_jump_land.wav</ShortName>
-							<Path>SFX/SFX_210615_FeetDirtStone/LTSHell_SFX_JSO_FS_dirt_jump_land_10C4C929.wem</Path>
+							<Path>SFX\SFX_210615_FeetDirtStone\LTSHell_SFX_JSO_FS_dirt_jump_land_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 					<SwitchContainers>
@@ -188,11 +189,11 @@
 					<IncludedMemoryFiles>
 						<File Id="379509120" Language="SFX">
 							<ShortName>SFX_210615_FeetDirtStone\LTSHell_SFX_JSO_FS_dirt_jump_launch.wav</ShortName>
-							<Path>SFX/SFX_210615_FeetDirtStone/LTSHell_SFX_JSO_FS_dirt_jump_launch_10C4C929.wem</Path>
+							<Path>SFX\SFX_210615_FeetDirtStone\LTSHell_SFX_JSO_FS_dirt_jump_launch_10C4C929.wem</Path>
 						</File>
 						<File Id="1046683361" Language="SFX">
 							<ShortName>SFX_210615_FeetDirtStone\LTSHell_SFX_JSO_FS_stone_jump_launch.wav</ShortName>
-							<Path>SFX/SFX_210615_FeetDirtStone/LTSHell_SFX_JSO_FS_stone_jump_launch_10C4C929.wem</Path>
+							<Path>SFX\SFX_210615_FeetDirtStone\LTSHell_SFX_JSO_FS_stone_jump_launch_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 					<SwitchContainers>
@@ -208,11 +209,11 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="3420260337" Name="SkullAmb_Trigger" ObjectPath="\Events\Default Work Unit\SkullAmb_Trigger" DurationType="Infinite">
+				<Event Id="3420260337" Name="SkullAmb_Trigger" ObjectPath="\Events\Default Work Unit\SkullAmb_Trigger" MaxAttenuation="50.000000" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="943600094" Language="SFX">
 							<ShortName>LTSHell_SFX_JSO_SL_SkullAmb.wav</ShortName>
-							<Path>SFX/LTSHell_SFX_JSO_SL_SkullAmb_D79FB2B7.wem</Path>
+							<Path>SFX\LTSHell_SFX_JSO_SL_SkullAmb_D79FB2B7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>

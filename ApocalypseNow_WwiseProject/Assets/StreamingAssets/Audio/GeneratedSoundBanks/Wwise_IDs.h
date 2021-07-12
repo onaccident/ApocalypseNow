@@ -13,6 +13,8 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID FOOT_DIRT_JUMP_LAUNCH = 2379002856U;
+        static const AkUniqueID FOOT_DIRT_R = 1057979224U;
         static const AkUniqueID MAINAMB_TRIGGER = 3843065399U;
         static const AkUniqueID PLAY_SFX_PLYRFOOTSTEPS = 2307068928U;
         static const AkUniqueID PLAY_SFX_PLYRJUMPLAND = 4225642844U;
@@ -34,6 +36,11 @@ namespace AK
         } // namespace SURFACE
 
     } // namespace SWITCHES
+
+    namespace GAME_PARAMETERS
+    {
+        static const AkUniqueID _RTPC = 1866752577U;
+    } // namespace GAME_PARAMETERS
 
     namespace BANKS
     {

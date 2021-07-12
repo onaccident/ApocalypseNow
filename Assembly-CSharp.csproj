@@ -64,6 +64,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\PolygonDungeonRealms\Scripts\AmbientController.cs" />
     <Compile Include="Assets\PolygonDungeonRealms\Scripts\SC_CharacterController.cs" />
     <Compile Include="Assets\PolygonDungeonRealms\Scripts\SC_HeadBobber.cs" />
     <None Include="Assets\WwiseSettings.xml" />
