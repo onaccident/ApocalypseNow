@@ -1822,7 +1822,7 @@ GameObject:
   - component: {fileID: 184998232}
   m_Layer: 0
   m_Name: ParentController
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24642,7 +24642,7 @@ GameObject:
   - component: {fileID: 2030371146}
   m_Layer: 0
   m_Name: Capsule
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26944,5 +26944,89 @@ PrefabInstance:
       propertyPath: m_Name
       value: FPSPlayer
       objectReference: {fileID: 0}
+    - target: {fileID: 7974099027464657471, guid: 70bfbe62f4586df43ada3c02e9e80d51,
+        type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 70bfbe62f4586df43ada3c02e9e80d51, type: 3}
+--- !u!1001 &8067466570306761294
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1382037828478849989, guid: cd5751f27e09dc943b8a8cb1b3783954,
+        type: 3}
+      propertyPath: m_Name
+      value: BasicEmitterWWISE
+      objectReference: {fileID: 0}
+    - target: {fileID: 2112024295217203387, guid: cd5751f27e09dc943b8a8cb1b3783954,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2112024295217203387, guid: cd5751f27e09dc943b8a8cb1b3783954,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2112024295217203387, guid: cd5751f27e09dc943b8a8cb1b3783954,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2112024295217203387, guid: cd5751f27e09dc943b8a8cb1b3783954,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 56
+      objectReference: {fileID: 0}
+    - target: {fileID: 2112024295217203387, guid: cd5751f27e09dc943b8a8cb1b3783954,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2112024295217203387, guid: cd5751f27e09dc943b8a8cb1b3783954,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2112024295217203387, guid: cd5751f27e09dc943b8a8cb1b3783954,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2112024295217203387, guid: cd5751f27e09dc943b8a8cb1b3783954,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2112024295217203387, guid: cd5751f27e09dc943b8a8cb1b3783954,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2112024295217203387, guid: cd5751f27e09dc943b8a8cb1b3783954,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2112024295217203387, guid: cd5751f27e09dc943b8a8cb1b3783954,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3448068744906390983, guid: cd5751f27e09dc943b8a8cb1b3783954,
+        type: 3}
+      propertyPath: EventNameWW
+      value: SkullAmb_Trigger
+      objectReference: {fileID: 0}
+    - target: {fileID: 3448068744906390983, guid: cd5751f27e09dc943b8a8cb1b3783954,
+        type: 3}
+      propertyPath: StopEventWW
+      value: SkullAmb_Trigger_STOP
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: cd5751f27e09dc943b8a8cb1b3783954, type: 3}

@@ -111,7 +111,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 0affa7bba1f3fd4a89eef0ce64a4b417
     GuidInternal: 
-    m_lastTime: -8585756735910346663
+    m_lastTime: -8585754855905745610
     List:
     - name: foot_dirt_jump_land
       guid: 3d7696b8e1fd204d845593b44bcd8e3d
@@ -334,6 +334,23 @@ MonoBehaviour:
       maxAttenuation: 50
       maxDuration: -1
       minDuration: -1
+    - name: SkullAmb_Trigger_STOP
+      guid: e64cf76b712d414685501b014f7366bb
+      id: 1574636564
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 0affa7bba1f3fd4a89eef0ce64a4b417
+      - ElementName: SkullAmb_Trigger_STOP
+        ObjectType: 3
+        guid: e64cf76b712d414685501b014f7366bb
+      Path: Events\Default Work Unit\SkullAmb_Trigger_STOP
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - name: test
       guid: 6585da9854800546a5e20a750a294f9c
       id: 3157003241

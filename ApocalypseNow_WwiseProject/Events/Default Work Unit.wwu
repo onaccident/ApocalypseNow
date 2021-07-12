@@ -157,6 +157,20 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="SkullAmb_Trigger_STOP" ID="{6BF74CE6-2D71-4641-8550-1B014F7366BB}">
+					<ChildrenList>
+						<Action Name="" ID="{5C3545E2-192E-4E69-83CC-980C638C6039}" ShortID="932007926">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="LTSHell_SFX_JSO_SL_SkullAmb" ID="{70CA2A1C-7C76-40C3-A955-011BFB522A3A}" WorkUnitID="{09F03C2A-3A72-4692-9A31-CDF2B82672A0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
