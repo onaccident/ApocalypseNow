@@ -83,7 +83,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: a5f5c47e5add524ca953bd5a3beb21ad
     GuidInternal: 
-    m_lastTime: -8585756684894627895
+    m_lastTime: -8585754846081124914
     List:
     - name: Main
       guid: ac162072e295e34d8c99c9270e1275f9
@@ -111,7 +111,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 0affa7bba1f3fd4a89eef0ce64a4b417
     GuidInternal: 
-    m_lastTime: -8585754855905745610
+    m_lastTime: -8585754846081239990
     List:
     - name: foot_dirt_jump_land
       guid: 3d7696b8e1fd204d845593b44bcd8e3d
@@ -349,8 +349,8 @@ MonoBehaviour:
         guid: e64cf76b712d414685501b014f7366bb
       Path: Events\Default Work Unit\SkullAmb_Trigger_STOP
       maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
+      maxDuration: -1
+      minDuration: -1
     - name: test
       guid: 6585da9854800546a5e20a750a294f9c
       id: 3157003241
