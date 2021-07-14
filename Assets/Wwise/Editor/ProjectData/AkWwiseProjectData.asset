@@ -111,7 +111,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 0affa7bba1f3fd4a89eef0ce64a4b417
     GuidInternal: 
-    m_lastTime: -8585754846081239990
+    m_lastTime: -8585753891239652368
     List:
     - name: foot_dirt_jump_land
       guid: 3d7696b8e1fd204d845593b44bcd8e3d
@@ -331,7 +331,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: ccb95f52704b284e9ce14c5b10c9b3e9
       Path: Events\Default Work Unit\SkullAmb_Trigger
-      maxAttenuation: 50
+      maxAttenuation: 200
       maxDuration: -1
       minDuration: -1
     - name: SkullAmb_Trigger_STOP
@@ -349,8 +349,8 @@ MonoBehaviour:
         guid: e64cf76b712d414685501b014f7366bb
       Path: Events\Default Work Unit\SkullAmb_Trigger_STOP
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0
+      minDuration: 0
     - name: test
       guid: 6585da9854800546a5e20a750a294f9c
       id: 3157003241
@@ -488,9 +488,9 @@ MonoBehaviour:
     GuidInternal: 
     m_lastTime: -8585810813268419286
     List: []
-  ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 010000000200000003000000040000000500000006000000070000000b0000000c0000001700000018000000190000001f0000003f00000056000000570000007c000000a3000000b6000000dc000000f2000000f3000000
+  ExpandedFileSystemItemIds: 0100000002000000040000000500000006000000070000000b0000000c000000180000001a0000001b00000021000000220000003f00000056000000570000007c000000a3000000b6000000dc000000f2000000f3000000
+  ExpandedWaapiItemIds: 0100000002000000040000000500000006000000070000000b0000000c000000180000001a0000001b00000021000000220000003f00000056000000570000007c000000a3000000b6000000dc000000f2000000f3000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
-  currentDataSource: 0
+  currentDataSource: 1
   CurrentPluginConfig: 

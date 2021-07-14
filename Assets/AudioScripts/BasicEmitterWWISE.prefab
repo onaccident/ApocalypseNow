@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 2112024295217203387}
   - component: {fileID: 3448068744906390983}
   - component: {fileID: 2640680309325324372}
+  - component: {fileID: 82334590}
   m_Layer: 0
   m_Name: BasicEmitterWWISE
   m_TagString: Untagged
@@ -26,7 +27,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1382037828478849989}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 2, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -44,8 +45,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44c88bcc5727f1c44ba584e494d0498b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  EventNameWW: default
-  StopEventWW: default
+  EventNameWW: SkullAmb_Trigger
+  StopEventWW: SkullAmb_Trigger_STOP
 --- !u!135 &2640680309325324372
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -57,5 +58,27 @@ SphereCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 20
+  m_Radius: 10
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &82334590
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1382037828478849989}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40da8680b8641864da75d781059e3383, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_listeners:
+    initialListenerList: []
+    useDefaultListeners: 1
+  isEnvironmentAware: 0
+  isStaticObject: 0
+  m_positionOffsetData:
+    KeepMe: 0
+    positionOffset: {x: 0, y: 0, z: 0}
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1

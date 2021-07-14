@@ -1,5 +1,6 @@
 Event	ID	Name			Wwise Object Path	Notes
 	1057979224	foot_dirt_R			\Default Work Unit\foot_dirt_R	
+	1574636564	SkullAmb_Trigger_STOP			\Default Work Unit\SkullAmb_Trigger_STOP	
 	2307068928	Play_SFX_PlyrFootsteps			\Default Work Unit\Play_SFX_PlyrFootsteps	
 	2379002856	foot_dirt_jump_launch			\Default Work Unit\foot_dirt_jump_launch	
 	2916727514	Play_SFX_PlyrJumpLaunch			\Default Work Unit\Play_SFX_PlyrJumpLaunch	
@@ -39,7 +40,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	843449187	LTSHell_SFX_JSO_FS_dirt_jump_land	C:\Users\GygaxiMAAX\Documents\GitHub\ApocalypseNow\ApocalypseNow_WwiseProject\.cache\Mac\SFX\SFX_210615_FeetDirtStone\LTSHell_SFX_JSO_FS_dirt_jump_land_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_switch_PlyrJumpLand\LTSHell_SFX_JSO_FS_dirt_jump_land		80144
 	896195382	LTSHell_SFX_JSO_FS_dirt8	C:\Users\GygaxiMAAX\Documents\GitHub\ApocalypseNow\ApocalypseNow_WwiseProject\.cache\Mac\SFX\SFX_210615_FeetDirtStone\LTSHell_SFX_JSO_FS_dirt8_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_switch_PlyrFootsteps\SFX_sequence_PlyrFootsteps_dirt\foot_dirt_R_random\LTSHell_SFX_JSO_FS_dirt8		48112
 	905201629	ENV_Hell_Base_Ambience	C:\Users\GygaxiMAAX\Documents\GitHub\ApocalypseNow\ApocalypseNow_WwiseProject\.cache\Mac\SFX\Hell Base Ambience 5.20.21_76FC985C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\ENV_Hell_Base_Ambience		18018352
-	943600094	LTSHell_SFX_JSO_SL_SkullAmb	C:\Users\GygaxiMAAX\Documents\GitHub\ApocalypseNow\ApocalypseNow_WwiseProject\.cache\Mac\SFX\LTSHell_SFX_JSO_SL_SkullAmb_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\LTSHell_SFX_JSO_SL_SkullAmb		11531584
+	943600094	LTSHell_SFX_JSO_SL_SkullAmb	C:\Users\GygaxiMAAX\Documents\GitHub\ApocalypseNow\ApocalypseNow_WwiseProject\.cache\Mac\SFX\LTSHell_SFX_JSO_SL_SkullAmb_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\3DSpatialized\LTSHell_SFX_JSO_SL_SkullAmb		11531584
 	988595697	LTSHell_SFX_JSO_FS_stone1	C:\Users\GygaxiMAAX\Documents\GitHub\ApocalypseNow\ApocalypseNow_WwiseProject\.cache\Mac\SFX\SFX_210615_FeetDirtStone\LTSHell_SFX_JSO_FS_stone1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_switch_PlyrFootsteps\SFX_sequence_PlyrFootsteps_stone\foot_stone_L_random\LTSHell_SFX_JSO_FS_stone1		56120
 	1000088214	LTSHell_SFX_JSO_FS_stone7	C:\Users\GygaxiMAAX\Documents\GitHub\ApocalypseNow\ApocalypseNow_WwiseProject\.cache\Mac\SFX\SFX_210615_FeetDirtStone\LTSHell_SFX_JSO_FS_stone7_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_switch_PlyrFootsteps\SFX_sequence_PlyrFootsteps_stone\foot_stone_R_random\LTSHell_SFX_JSO_FS_stone7		56022
 	1002163670	LTSHell_SFX_JSO_FS_stone3	C:\Users\GygaxiMAAX\Documents\GitHub\ApocalypseNow\ApocalypseNow_WwiseProject\.cache\Mac\SFX\SFX_210615_FeetDirtStone\LTSHell_SFX_JSO_FS_stone3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_switch_PlyrFootsteps\SFX_sequence_PlyrFootsteps_stone\foot_stone_L_random\LTSHell_SFX_JSO_FS_stone3		56120

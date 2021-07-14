@@ -3,7 +3,17 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{BBA7FF0A-F3A1-4AFD-89EE-F0CE64A4B417}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="test" ID="{98DA8565-8054-4605-A5E2-0A750A294F9C}"/>
+				<Event Name="test" ID="{98DA8565-8054-4605-A5E2-0A750A294F9C}">
+					<ChildrenList>
+						<Action Name="" ID="{293CB83C-C9B7-44BA-B02C-F5A79722BBA1}" ShortID="538266882">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Test1" ID="{D8954D7F-8B0D-4FFA-A8F2-258DC2E58983}" WorkUnitID="{09F03C2A-3A72-4692-9A31-CDF2B82672A0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 				<Event Name="SkullAmb_Trigger" ID="{525FB9CC-4B70-4E28-9CE1-4C5B10C9B3E9}">
 					<ChildrenList>
 						<Action Name="" ID="{3C39A82E-5BE7-4029-AC5E-936968829F98}" ShortID="994511924">

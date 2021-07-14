@@ -16,7 +16,7 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="2744827114">
+		<SoundBank Id="3161908922" Language="SFX" Hash="217227785">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -209,7 +209,7 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="3420260337" Name="SkullAmb_Trigger" ObjectPath="\Events\Default Work Unit\SkullAmb_Trigger" MaxAttenuation="50.000000" DurationType="Infinite">
+				<Event Id="3420260337" Name="SkullAmb_Trigger" ObjectPath="\Events\Default Work Unit\SkullAmb_Trigger" MaxAttenuation="200.000000" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="943600094" Language="SFX">
 							<ShortName>LTSHell_SFX_JSO_SL_SkullAmb.wav</ShortName>
@@ -217,6 +217,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="1574636564" Name="SkullAmb_Trigger_STOP" ObjectPath="\Events\Default Work Unit\SkullAmb_Trigger_STOP" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 			</IncludedEvents>
 			<SwitchGroups>
 				<SwitchGroup Id="1834394558" Name="Surface" ObjectPath="\Switches\Default Work Unit\Surface">

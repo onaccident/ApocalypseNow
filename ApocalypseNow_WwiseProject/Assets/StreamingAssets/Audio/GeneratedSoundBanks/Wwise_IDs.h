@@ -20,6 +20,7 @@ namespace AK
         static const AkUniqueID PLAY_SFX_PLYRJUMPLAND = 4225642844U;
         static const AkUniqueID PLAY_SFX_PLYRJUMPLAUNCH = 2916727514U;
         static const AkUniqueID SKULLAMB_TRIGGER = 3420260337U;
+        static const AkUniqueID SKULLAMB_TRIGGER_STOP = 1574636564U;
     } // namespace EVENTS
 
     namespace SWITCHES
