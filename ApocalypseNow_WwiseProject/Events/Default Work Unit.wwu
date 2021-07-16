@@ -181,6 +181,33 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Emitter_Test" ID="{62FE8FBA-AC65-49FE-AD33-A376B62EF3A1}">
+					<ChildrenList>
+						<Action Name="" ID="{7DEDD95F-E261-4884-923E-2720D21E3771}" ShortID="631150726">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ENV_Hell_Base_Ambience" ID="{746626FB-6AD7-43C1-9266-BC6E04DCAD16}" WorkUnitID="{09F03C2A-3A72-4692-9A31-CDF2B82672A0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Emitter_Test" ID="{6D41F923-F746-4869-AB7B-2D0CC85E9B96}">
+					<ChildrenList>
+						<Action Name="" ID="{C83E20BB-EE7A-48BA-BEDB-6D1CFEA05EFB}" ShortID="911502893">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeOutCurve" Type="int16" Value="6"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.8"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ENV_Hell_Base_Ambience" ID="{746626FB-6AD7-43C1-9266-BC6E04DCAD16}" WorkUnitID="{09F03C2A-3A72-4692-9A31-CDF2B82672A0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

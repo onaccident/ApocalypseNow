@@ -16,11 +16,13 @@ namespace AK
         static const AkUniqueID FOOT_DIRT_JUMP_LAUNCH = 2379002856U;
         static const AkUniqueID FOOT_DIRT_R = 1057979224U;
         static const AkUniqueID MAINAMB_TRIGGER = 3843065399U;
+        static const AkUniqueID PLAY_EMITTER_TEST = 2695316819U;
         static const AkUniqueID PLAY_SFX_PLYRFOOTSTEPS = 2307068928U;
         static const AkUniqueID PLAY_SFX_PLYRJUMPLAND = 4225642844U;
         static const AkUniqueID PLAY_SFX_PLYRJUMPLAUNCH = 2916727514U;
         static const AkUniqueID SKULLAMB_TRIGGER = 3420260337U;
         static const AkUniqueID SKULLAMB_TRIGGER_STOP = 1574636564U;
+        static const AkUniqueID STOP_EMITTER_TEST = 1432504501U;
     } // namespace EVENTS
 
     namespace SWITCHES

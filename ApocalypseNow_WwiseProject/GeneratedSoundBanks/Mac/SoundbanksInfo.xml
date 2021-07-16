@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>C:\Users\GygaxiMAAX\Documents\GitHub\ApocalypseNow\ApocalypseNow_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\GygaxiMAAX\Documents\GitHub\ApocalypseNow\ApocalypseNow_WwiseProject\.cache\Mac\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\GygaxiMAAX\Documents\GitHub\ApocalypseNow\ApocalypseNow_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\redfi\OneDrive\Documents\GitHub\ApocalypseNow\ApocalypseNow_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\redfi\OneDrive\Documents\GitHub\ApocalypseNow\ApocalypseNow_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\redfi\OneDrive\Documents\GitHub\ApocalypseNow\ApocalypseNow_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\GygaxiMAAX\Documents\GitHub\ApocalypseNow\ApocalypseNow_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\redfi\OneDrive\Documents\GitHub\ApocalypseNow\ApocalypseNow_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -16,7 +16,7 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="217227785">
+		<SoundBank Id="3161908922" Language="SFX" Hash="4077299077">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -90,6 +90,14 @@
 						<File Id="1037168783" Language="SFX">
 							<ShortName>Hell Sweetener 5.20.21.wav</ShortName>
 							<Path>SFX\Hell Sweetener 5.20.21_FE9FB999.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2695316819" Name="Play_Emitter_Test" ObjectPath="\Events\Default Work Unit\Play_Emitter_Test" MaxAttenuation="30.000000" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="905201629" Language="SFX">
+							<ShortName>Hell Base Ambience 5.20.21.wav</ShortName>
+							<Path>SFX\Hell Base Ambience 5.20.21_76FC985C.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -209,7 +217,7 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="3420260337" Name="SkullAmb_Trigger" ObjectPath="\Events\Default Work Unit\SkullAmb_Trigger" MaxAttenuation="200.000000" DurationType="Infinite">
+				<Event Id="3420260337" Name="SkullAmb_Trigger" ObjectPath="\Events\Default Work Unit\SkullAmb_Trigger" MaxAttenuation="30.000000" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="943600094" Language="SFX">
 							<ShortName>LTSHell_SFX_JSO_SL_SkullAmb.wav</ShortName>
@@ -218,6 +226,7 @@
 					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="1574636564" Name="SkullAmb_Trigger_STOP" ObjectPath="\Events\Default Work Unit\SkullAmb_Trigger_STOP" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1432504501" Name="Stop_Emitter_Test" ObjectPath="\Events\Default Work Unit\Stop_Emitter_Test" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 			</IncludedEvents>
 			<SwitchGroups>
 				<SwitchGroup Id="1834394558" Name="Surface" ObjectPath="\Switches\Default Work Unit\Surface">

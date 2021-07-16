@@ -24,7 +24,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics\Default Work Unit
     guid: ae09f1f83a9d874abfc13a333474253c
     GuidInternal: 
-    m_lastTime: -8585810813268779374
+    m_lastTime: -8585752078531689978
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: e7f4cde310afed45a87c87e0dab3c410
     GuidInternal: 
-    m_lastTime: -8585786823456011016
+    m_lastTime: -8585752078538673625
     List:
     - name: Environment
       guid: dccd6bafe2f4d34698df3bff0f28caf7
@@ -83,7 +83,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: a5f5c47e5add524ca953bd5a3beb21ad
     GuidInternal: 
-    m_lastTime: -8585754846081124914
+    m_lastTime: -8585752003662249682
     List:
     - name: Main
       guid: ac162072e295e34d8c99c9270e1275f9
@@ -111,7 +111,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 0affa7bba1f3fd4a89eef0ce64a4b417
     GuidInternal: 
-    m_lastTime: -8585753891239652368
+    m_lastTime: -8585752003745312004
     List:
     - name: foot_dirt_jump_land
       guid: 3d7696b8e1fd204d845593b44bcd8e3d
@@ -266,6 +266,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Play_Emitter_Test
+      guid: ba8ffe6265acfe49ad33a376b62ef3a1
+      id: 2695316819
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 0affa7bba1f3fd4a89eef0ce64a4b417
+      - ElementName: Play_Emitter_Test
+        ObjectType: 3
+        guid: ba8ffe6265acfe49ad33a376b62ef3a1
+      Path: Events\Default Work Unit\Play_Emitter_Test
+      maxAttenuation: 30
+      maxDuration: -1
+      minDuration: -1
     - name: Play_SFX_PlyrFootsteps
       guid: 5583487361b6d8449736ef3ecf30cd04
       id: 2307068928
@@ -331,7 +348,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: ccb95f52704b284e9ce14c5b10c9b3e9
       Path: Events\Default Work Unit\SkullAmb_Trigger
-      maxAttenuation: 200
+      maxAttenuation: 30
       maxDuration: -1
       minDuration: -1
     - name: SkullAmb_Trigger_STOP
@@ -348,6 +365,23 @@ MonoBehaviour:
         ObjectType: 3
         guid: e64cf76b712d414685501b014f7366bb
       Path: Events\Default Work Unit\SkullAmb_Trigger_STOP
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Stop_Emitter_Test
+      guid: 23f9416d46f76948ab7b2d0cc85e9b96
+      id: 1432504501
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 0affa7bba1f3fd4a89eef0ce64a4b417
+      - ElementName: Stop_Emitter_Test
+        ObjectType: 3
+        guid: 23f9416d46f76948ab7b2d0cc85e9b96
+      Path: Events\Default Work Unit\Stop_Emitter_Test
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -380,7 +414,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: 6a591f82a745074a9c00d76eff15351e
     GuidInternal: 
-    m_lastTime: -8585756659735213864
+    m_lastTime: -8585752078541717162
     List:
     - name: _RTPC
       guid: d4aa668573665544876aa6131969fac4
@@ -408,7 +442,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: 36fe13fe46d5f14f8ddd0cfde42591ac
     GuidInternal: 
-    m_lastTime: -8585810813267749143
+    m_lastTime: -8585752078531699964
     List: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
@@ -422,7 +456,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: e747624656b63949ab2849c85527bdf5
     GuidInternal: 
-    m_lastTime: -8585758443853883629
+    m_lastTime: -8585752078531699964
     List:
     - name: Surface
       guid: a978adab5a8d12409901ea8e48942a3d
@@ -486,9 +520,9 @@ MonoBehaviour:
     ParentPath: Triggers\Default Work Unit
     guid: 10ecb9222c215a4a9cd0c82e4913a7a5
     GuidInternal: 
-    m_lastTime: -8585810813268419286
+    m_lastTime: -8585752078531689978
     List: []
-  ExpandedFileSystemItemIds: 0100000002000000040000000500000006000000070000000b0000000c000000180000001a0000001b00000021000000220000003f00000056000000570000007c000000a3000000b6000000dc000000f2000000f3000000
+  ExpandedFileSystemItemIds: 010000000200000003000000040000000500000006000000070000000b0000000c0000001b000000220000003f00000056000000570000007c000000a3000000b6000000dc000000f2000000f3000000
   ExpandedWaapiItemIds: 0100000002000000040000000500000006000000070000000b0000000c000000180000001a0000001b00000021000000220000003f00000056000000570000007c000000a3000000b6000000dc000000f2000000f3000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
