@@ -444,6 +444,7 @@
 											</ValueList>
 										</Property>
 										<Property Name="OverrideColor" Type="bool" Value="True"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
 										<Property Name="UseMaxSoundPerInstance" Type="bool">
 											<ValueList>
 												<Value>True</Value>
@@ -452,7 +453,7 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Attenuation">
-											<ObjectRef Name="Skull Attentuation" ID="{02F1F96B-D585-4DF8-9FF8-CB4FB1C38868}" WorkUnitID="{C4D677BC-0856-42CE-879B-44B5DF07B8FB}"/>
+											<ObjectRef Name="ATT_SkullTake2" ID="{6BFEBD68-E29C-424B-ADDA-F0AEBFB56885}" WorkUnitID="{C4D677BC-0856-42CE-879B-44B5DF07B8FB}"/>
 										</Reference>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{707979CC-651D-4D44-8623-BF15EF0346B9}"/>
