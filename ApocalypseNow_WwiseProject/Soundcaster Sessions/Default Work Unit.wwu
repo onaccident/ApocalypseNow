@@ -53,7 +53,7 @@
 					<RTPCValueList ShowAll="true"/>
 					<CurrentStateList ShowAll="true"/>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="stone" ID="{A8602BB8-046D-450E-8430-FC554303C124}"/>
+						<CurrentSwitchRef Name="dirt" ID="{74F9DE8C-C72D-4181-8A94-C235CA31E58F}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>

@@ -17,6 +17,13 @@
 							</PropertyList>
 							<ObjectLists/>
 						</Bus>
+						<Bus Name="Footsteps" ID="{41F9C200-713F-43C8-BBC8-D33206E41CFA}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="9"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ObjectLists/>
+						</Bus>
 					</ChildrenList>
 					<ObjectLists/>
 				</Bus>

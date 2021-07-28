@@ -51,7 +51,7 @@
 						<Action Name="" ID="{558CC038-22C9-4A2F-9B7F-F504B3730394}" ShortID="540862721">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="foot_dirt_L_random" ID="{A2FC16F3-D492-4DE9-8700-79DE0CA069ED}" WorkUnitID="{09F03C2A-3A72-4692-9A31-CDF2B82672A0}"/>
+									<ObjectRef Name="SFX_random_PlyrFoosteps_dirt_L" ID="{A2FC16F3-D492-4DE9-8700-79DE0CA069ED}" WorkUnitID="{09F03C2A-3A72-4692-9A31-CDF2B82672A0}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -62,7 +62,7 @@
 						<Action Name="" ID="{6329F839-61E0-4DD2-B491-BA5E036FD4A0}" ShortID="599621433">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="foot_dirt_R_random" ID="{90FA9392-0C97-47BD-BC67-1209C56909C9}" WorkUnitID="{09F03C2A-3A72-4692-9A31-CDF2B82672A0}"/>
+									<ObjectRef Name="SFX_random_PlyrFoosteps_dirt_R" ID="{90FA9392-0C97-47BD-BC67-1209C56909C9}" WorkUnitID="{09F03C2A-3A72-4692-9A31-CDF2B82672A0}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -95,7 +95,7 @@
 						<Action Name="" ID="{AE623A61-9A10-48C6-A46B-3E120B0B3500}" ShortID="977364047">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="foot_stone_L_random" ID="{273F3076-2191-4F5C-B0CB-0E8868DBD54A}" WorkUnitID="{09F03C2A-3A72-4692-9A31-CDF2B82672A0}"/>
+									<ObjectRef Name="SFX_random_PlyrFoosteps_stone_L" ID="{273F3076-2191-4F5C-B0CB-0E8868DBD54A}" WorkUnitID="{09F03C2A-3A72-4692-9A31-CDF2B82672A0}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -106,7 +106,7 @@
 						<Action Name="" ID="{93DD4896-EC0E-4BFA-A593-CB9CB7918EC7}" ShortID="645028954">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="foot_stone_R_random" ID="{303900BA-D3BE-43E8-AD40-449408936370}" WorkUnitID="{09F03C2A-3A72-4692-9A31-CDF2B82672A0}"/>
+									<ObjectRef Name="SFX_random_PlyrFoosteps_stone_R" ID="{303900BA-D3BE-43E8-AD40-449408936370}" WorkUnitID="{09F03C2A-3A72-4692-9A31-CDF2B82672A0}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
