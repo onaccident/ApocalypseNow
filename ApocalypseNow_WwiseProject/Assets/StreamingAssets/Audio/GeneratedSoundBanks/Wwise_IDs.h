@@ -54,6 +54,7 @@ namespace AK
     namespace BUSSES
     {
         static const AkUniqueID ENVIRONMENT = 1229948536U;
+        static const AkUniqueID FOOTSTEPS = 2385628198U;
         static const AkUniqueID MASTER_AUDIO_BUS = 3803692087U;
     } // namespace BUSSES
 
